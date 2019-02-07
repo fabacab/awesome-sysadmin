@@ -1,12 +1,10 @@
-<!--
-  Title: Awesome Sysadmin
-  Description: A curated list of amazingly awesome open source sysadmin resources.
-  Author: n1trux
-  -->
-
 # Awesome Sysadmin [![certified awesome!](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 
-**A curated list of amazingly awesome open source sysadmin resources.** Please read [CONTRIBUTING](./.github/CONTRIBUTING.md) if you wish to add software and consider [donating](https://github.com/n1trux/awesome-donations) to the FLOSS projects you use regularly.
+> A curated list of amazingly awesome Free Software and Open Source resources for system administrators.
+
+[System administration](https://en.wikipedia.org/wiki/System_administrator) is the practice of configuring, maintaining, and supporting the reliable operation of computer systems to support the work of others who need to use those systems. System administrators ("sysadmins") ensure that information technology systems are available for use and are operating within acceptable parameters. This list provides a non-exhaustive reference to tools of the trade. For educational references, see [AnarchoTech NYC's "Foundations: System administration" series](https://github.com/AnarchoTechNYC/meta/wiki/Foundations#system-administration).
+
+Please read [CONTRIBUTING](.github/CONTRIBUTING.md) if you wish to add items to this list. Your contributions and suggestions are welcome. :)
 
 * [Awesome Sysadmin](#awesome-sysadmin)
   * [Automation](#automation)
