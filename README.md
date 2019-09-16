@@ -17,7 +17,7 @@ Please read [CONTRIBUTING](.github/CONTRIBUTING.md) if you wish to add items to 
   * [Cloud Orchestration](#cloud-orchestration)
   * Cloud Storage: [see awesome-selfhosted#file-transfersynchronization](https://github.com/meitar/awesome-selfhosted#file-transfersynchronization)
   * [Code Review](#code-review)
-  * [Collaborative Software](#collaborative-software)
+  * Collaborative Software: [see awesome-selfhosted#groupware](https://github.com/Kickball/awesome-selfhosted#groupware)
   * [Configuration Management Database](#configuration-management-database)
   * [Configuration Management](#configuration-management)
   * [Continuous Integration & Continuous Deployment](#continuous-integration--continuous-deployment)
@@ -87,6 +87,7 @@ Please read [CONTRIBUTING](.github/CONTRIBUTING.md) if you wish to add items to 
 * [Barman](http://www.pgbarman.org) - Backup and Recovery Manager for disaster recovery of PostgreSQL servers.
 * [BorgBackup](https://github.com/borgbackup/borg) - Fork of [Attic](https://attic-backup.org) deduplicating backup program written in Python.
 * [Burp](http://burp.grke.org/) - Network backup and restore program.
+* [Duplicati](http://www.duplicati.com) - Multiple backends, encryption, web-ui and multi-OS backup tool.
 * [Duplicity](http://duplicity.nongnu.org/) - Encrypted bandwidth-efficient backup using the rsync algorithm.
 * [Elkarbackup](https://github.com/elkarbackup/elkarbackup) - Backup solution based on RSnapshot with a simple web interface.
 * [Lsyncd](https://github.com/axkibe/lsyncd) - File Monitor which spawns a process to synchronize the changes (rsync by default).
@@ -180,16 +181,6 @@ Please read [CONTRIBUTING](.github/CONTRIBUTING.md) if you wish to add items to 
 * [Phabricator](http://phabricator.org/) - Code review tool build by facebook and used by WikiMedia, FB, dropbox etc. Comes with an integrated wiki, bug tracker, VC integration and a CLI tool called arcanist.
 * [Review Board](https://www.reviewboard.org/) - Available as free software under the MIT License.
 
-## Collaborative Software
-
-*Collaborative software or groupware suites.*
-
-* [Citadel/UX](http://www.citadel.org/) - Collaboration suite (messaging and groupware) that is descended from the Citadel family of programs.
-* [EGroupware](http://www.egroupware.org/start.html) - Groupware software written in PHP.
-* [Horde Groupware](http://www.horde.org/apps/groupware) - PHP based collaborative software suite that includes email, calendars, wikis, time tracking and file management.
-* [Kolab](https://kolab.org/) - Another groupware suite.
-* [SOGo](http://www.sogo.nu/) - Collaborative software server with a focus on simplicity and scalability.
-
 
 ## Configuration Management Database
 
@@ -218,13 +209,22 @@ Please read [CONTRIBUTING](.github/CONTRIBUTING.md) if you wish to add items to 
 
 *Continuous integration/deployment software.*
 
-* [Buildbot](http://buildbot.net/) - Python-based toolkit for continuous integration.
-* [CapsuleCD](https://github.com/AnalogJ/capsulecd) - CD script for automating package/library releases (npm, cookbooks, gems, pip, jars, etc).
-* [concourse](http://concourse.ci/) - Modern tool to gain visibility on the CI/CD pipeline.  The flexible, declarative DSL is easy to learn and powerful to use.
-* [Drone](https://github.com/drone/drone) - Continuous integration server built on Docker and configured using YAML files.
-* [GitLab CI](https://about.gitlab.com/gitlab-ci/) - Based off of ruby. They also provide GitLab, which manages git repositories.
-* [Go](http://www.go.cd/) - Continuous delivery server.
-* [Jenkins](http://jenkins-ci.org/) - Extendable continuous integration server.
+- [Buildbot](http://buildbot.net/) - Python-based toolkit for continuous integration. ([Source Code](https://github.com/buildbot/buildbot)) `GPL-2.0` `Python`
+- [CapsuleCD](https://analogj.github.io/capsulecd-slides/) - CD script for automating package/library releases (npm, cookbooks, gems, pip, jars, etc). ([Source Code](https://github.com/AnalogJ/capsulecd)) `MIT` `Go`
+- [Concourse](https://concourse.ci/) - Concourse is a CI tool that treats pipelines as first class objects and containerizes every step along the way. ([Demo](https://ci.concourse.ci/), [Source Code](https://github.com/concourse/concourse)) `Apache-2.0` `Go`
+- [drone](https://drone.io/) - Drone is a Continuous Delivery platform built on Docker, written in Go. ([Source Code](https://github.com/drone/drone)) `Apache-2.0` `Go`
+- [Factor](http://www.factor.io/) - Programmatically define and run workflows to connect configuration management, source code management, build, continuous integration, continuous deployment and communication tools. ([Source Code](https://github.com/factor-io/factor)) `MIT` `Ruby`
+- [GitLab CI](https://about.gitlab.com/gitlab-ci/) - Gitlab's built-in, full-featured CI/CD solution. ([Source Code](https://gitlab.com/gitlab-org/gitlab-ce) `MIT` `Ruby`
+- [GoCD](http://www.go.cd/) - Continuous delivery server. ([Source Code](https://github.com/gocd/gocd)) `Apache-2.0` `Java/Ruby`
+- [GolangCI](https://golangci.com/) - Open Source automated code review service for Go integrated with GitHub pull requests. ([Source Code](https://github.com/golangci/golangci)) `AGPL-3.0` `Go`
+- [Jenkins](https://jenkins-ci.org/) - Continuous Integration Server. ([Source Code](https://github.com/jenkinsci/jenkins/)) `MIT` `Java`
+- [Laminar](http://laminar.ohwg.net) - Fast, lightweight, simple and flexible Continuous Integration. ([Source Code](https://github.com/ohwgiles/laminar)) `GPL-3.0` `C++`
+- [PHP Censor](https://github.com/php-censor/php-censor) - Open source self-hosted continuous integration server for PHP projects. `BSD-2-Clause` `PHP`
+- [PHPCI](https://www.phptesting.org/) - Free and open source continuous integration specifically designed for PHP. ([Source Code](https://github.com/block8/phpci)) `BSD-2-Clause` `PHP`
+- [Strider](http://strider-cd.github.io/) - Open Source Continuous Deployment / Continuous Integration platform. ([Source Code](https://github.com/Strider-CD/strider)) `MIT` `Nodejs`
+
+
+>>>>>>> upstream-master
 
 ## Control Panels
 
@@ -242,10 +242,7 @@ Please read [CONTRIBUTING](.github/CONTRIBUTING.md) if you wish to add items to 
   * [PDNS Gui](https://github.com/odoucet/pdns-gui) - WebGUI which aids in administering domains and records for PowerDNS with MySQL.
   * [Pi-hole](https://pi-hole.net/) - Blackhole for Internet Advertisements with a gui for managing and monitoring.
   * [Poweradmin](http://www.poweradmin.org/) - Friendly web-based DNS administration tool for PowerDNS server.
-* Revision Control
-  * [iF.SVNAdmin](http://svnadmin.insanefactory.com/) - WebGUI to manage Subversion repositories and User/Group permissions.
-  * [SCM-Manager](https://www.scm-manager.org/) - The easiest way to share and manage your Git, Mercurial and Subversion repositories.
-  * [WebSVN](https://websvnphp.github.io/) - Opensource web subversion repository browser.
+* Revision Control: see [awesome-selfhosted#project-management](https://github.com/Kickball/awesome-selfhosted#project-management)
 * Virtualization
   * [Feathur](http://feathur.com) - VPS Provisioning and Management Software.
   * [OpenVZ Web Panel](https://github.com/sibprogrammer/owp) - Web panel to control OpenVZ virtual machines.
@@ -355,8 +352,10 @@ Please read [CONTRIBUTING](.github/CONTRIBUTING.md) if you wish to add items to 
 * [LDAP Account Manager (LAM)](https://www.ldap-account-manager.org/lamcms/) - Web frontend for managing entries (e.g. users, groups, DHCP settings) stored in an LDAP directory.
 * [OpenID Connect](http://openid.net/developers/libraries/) - Simple Identity layer on top of OAuth 2.0.
 * [OSIAM](http://osiam.github.io/) - Secure identity management solution providing REST based services for authentication and authorization.
+* [Pomerium](https://www.pomerium.io/) - An identity and context aware access-proxy inspired by BeyondCorp.
 * [Samba](https://www.samba.org/) – Active Directory and CIFS protocol implementation.
-* [BounCA](https://bounca.org/) - Personal SSL Key / Certificate Authority web-based tool for creating self-signed certificates.
+* [BounCA](https://bounca.org/) - A personal SSL Key / Certificate Authority web-based tool for creating self-signed certificates.
+* [easy-rsa](https://github.com/OpenVPN/easy-rsa) - bash script to build and manage a PKI CA.
 
 ## IT Asset Management
 
@@ -418,6 +417,7 @@ Please read [CONTRIBUTING](.github/CONTRIBUTING.md) if you wish to add items to 
 * [Munin](http://munin-monitoring.org/) - Networked resource monitoring tool.
 * [Naemon](http://www.naemon.org/) - Network monitoring tool based on the Nagios 4 core with performance enhancements and new features.
 * [Nagios](https://www.nagios.org/) - Computer system, network and infrastructure monitoring software application.
+* [NetXMS](https://www.netxms.org/) - Open Source network and infrastructure monitoring and management. ([Source Code](https://github.com/netxms/netxms))
 * [Observium](http://www.observium.org/) - SNMP monitoring for servers and networking devices. Runs on linux.
 * [OMD](http://omdistro.org/) - The Open Monitoring Distribution.
 * [Performance Co-Pilot](http://pcp.io) - Lightweight, distributed system performance and analysis framework.
@@ -580,8 +580,10 @@ Comparison of NoSQL servers: http://kkovacs.eu/cassandra-vs-mongodb-vs-couchdb-v
 
 * [Cachet](https://cachethq.io) - Status page system written in PHP.
 * [Stashboard](http://www.stashboard.org) - Status page for cloud services and APIs.
+* [Statusfy](https://statusfy.co/) - A modern status page for presenting critical service updates.
 * [System Status Dashboard (SSD)](http://www.system-status-dashboard.com/) - Overview about an organization's infrastructure health status.
 * [Staytus](http://staytus.co/) - Staytus is a complete solution for publishing the latest information about any issues with your web applications, networks or services.
+* [vigil](https://github.com/valeriansaliou/vigil) -  Microservices Status Page. Monitors a distributed infrastructure and sends alerts to Slack. Written in Rust.
 
 ## Troubleshooting
 
@@ -703,7 +705,7 @@ Various resources, such as books, websites and articles, for improving your skil
 
 ### Debian-based distributions
 
-* [Dotdeb](https://www.dotdeb.org/) - Repository with LAMP updated packages for Debian.
+* [deb.sury.org](https://deb.sury.org/) - Repository with LAMP updated packages for Debian and Ubuntu.
 
 ### RPM-based distributions
 
