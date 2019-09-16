@@ -2,7 +2,7 @@
 
 > A curated list of amazingly awesome Free Software and Open Source resources for system administrators.
 
-[System administration](https://en.wikipedia.org/wiki/System_administrator) is the practice of configuring, maintaining, and supporting the reliable operation of computer systems to support the work of others who need to use those systems. System administrators ("sysadmins") ensure that information technology systems are available for use and that the software applications running on those systems are performing adequately. For awesome software sysadmins might be requested to support, see [Awesome Self-Hosted](https://github.com/meitar/awesome-selfhosted). For educational material for becoming a sysadmin, see [AnarchoTech NYC's "Foundations: System administration" series](https://github.com/AnarchoTechNYC/meta/wiki/Foundations#system-administration). For related defensive security tooling, see [Awesome Cybersecurity Blue Team](https://github.com/meitar/awesome-cybersecurity-blueteam).
+[System administration](https://en.wikipedia.org/wiki/System_administrator) is the practice of configuring, maintaining, and supporting the reliable operation of computer systems to support the work of others who need to use those systems. System administrators ("sysadmins") ensure that information technology systems are available for use and that the software applications running on those systems are performing adequately. For awesome software sysadmins might be requested to support, see [Awesome Self-Hosted](https://github.com/Kickball/awesome-selfhosted). For educational material for becoming a sysadmin, see [AnarchoTech NYC's "Foundations: System administration" series](https://github.com/AnarchoTechNYC/meta/wiki/Foundations#system-administration). For related defensive security tooling, see [Awesome Cybersecurity Blue Team](https://github.com/meitar/awesome-cybersecurity-blueteam).
 
 Please read [CONTRIBUTING](.github/CONTRIBUTING.md) if you wish to add items to this list. Your contributions and suggestions are welcome. :)
 
@@ -15,7 +15,7 @@ Please read [CONTRIBUTING](.github/CONTRIBUTING.md) if you wish to add items to 
   * [Cloning](#cloning)
   * [Cloud Computing](#cloud-computing)
   * [Cloud Orchestration](#cloud-orchestration)
-  * Cloud Storage: [see awesome-selfhosted#file-transfersynchronization](https://github.com/meitar/awesome-selfhosted#file-transfersynchronization)
+  * Cloud Storage: [see awesome-selfhosted#file-transfersynchronization](https://github.com/Kickball/awesome-selfhosted#file-transfersynchronization)
   * [Code Review](#code-review)
   * Collaborative Software: [see awesome-selfhosted#groupware](https://github.com/Kickball/awesome-selfhosted#groupware)
   * [Configuration Management Database](#configuration-management-database)
@@ -31,7 +31,7 @@ Please read [CONTRIBUTING](.github/CONTRIBUTING.md) if you wish to add items to 
   * [IT Asset Management](#it-asset-management)
   * [Log Management](#log-management)
   * [Mail Clients](#mail-clients)
-  * Mail servers/webmail: [see awesome-selfhosted#email](https://github.com/meitar/awesome-selfhosted#email)
+  * Mail servers/webmail: [see awesome-selfhosted#email](https://github.com/kickball/awesome-selfhosted#email)
   * [Monitoring](#monitoring)
   * [Metric & Metric Collection](#metric--metric-collection)
   * [Network Configuration Management](#network-configuration-management)
@@ -46,16 +46,16 @@ Please read [CONTRIBUTING](.github/CONTRIBUTING.md) if you wish to add items to 
   * [Service Discovery](#service-discovery)
   * [Software Containers](#software-containers)
   * SSH: [see awesome-ssh](https://github.com/moul/awesome-ssh)
-  * Statistics: [see awesome-selfhosted#analytics](https://github.com/meitar/awesome-selfhosted#analytics)
+  * Statistics: [see awesome-selfhosted#analytics](https://github.com/Kickball/awesome-selfhosted#analytics)
   * [Status Pages](#status-pages)
-  * Ticketing systems: [see awesome-selfhosted#ticketing](https://github.com/meitar/awesome-selfhosted#ticketing)
+  * Ticketing systems: [see awesome-selfhosted#ticketing](https://github.com/Kickball/awesome-selfhosted#ticketing)
   * [Troubleshooting](#troubleshooting)
   * [Version control](#version-control)
   * [Virtualization](#virtualization)
   * [VPN](#vpn)
-  * XMPP: [see awesome-selfhosted#xmpp](https://github.com/meitar/awesome-selfhosted#xmpp)
+  * XMPP: [see awesome-selfhosted#xmpp](https://github.com/Kickball/awesome-selfhosted#xmpp)
   * [Web](#web)
-  * Wiki Software: [see awesome-selfhosted#wikis](https://github.com/meitar/awesome-selfhosted#wikis), Sysadmin Wikis: [see #wikis](#wikis)
+  * Wiki Software: [see awesome-selfhosted#wikis](https://github.com/Kickball/awesome-selfhosted#wikis), Sysadmin Wikis: [see #wikis](#wikis)
 * [Resources](#resources)
   * [Blogs](#blogs)
   * [Books](#books)
@@ -525,7 +525,7 @@ Comparison of NoSQL servers: http://kkovacs.eu/cassandra-vs-mongodb-vs-couchdb-v
 
 ## Project Management
 
-*Web-based project management and bug tracking systems*: see https://github.com/meitar/awesome-selfhosted#project-management
+*Web-based project management and bug tracking systems*: see https://github.com/Kickball/awesome-selfhosted#project-management
 
 ## Queuing
 
