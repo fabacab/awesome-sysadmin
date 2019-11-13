@@ -75,14 +75,15 @@ Please read [CONTRIBUTING](.github/CONTRIBUTING.md) if you wish to add items to 
 * [GNU Make](http://www.gnu.org/software/make/) - The most popular automation build tool for many purposes.
 * [Gradle](http://gradle.org/) - Another build automation system.
 * [Rake](https://github.com/ruby/rake) - Build automation tool similar to Make, written in and extensible in Ruby.
+* [Bolt](https://puppet.com/products/bolt) - You can use Bolt to run one-off tasks, scripts to automate the provisioning and management of some nodes, you can use Bolt to move a step beyond scripts, and make them shareable.
 
 ## Backups
 
 *Backup software.*
 
 * [Amanda](http://www.amanda.org/) - Client-server model backup tool.
-* [Bareos](http://www.bareos.org/en/) - Fork of Bacula backup tool.
-* [BackupPC](http://backuppc.sourceforge.net/) - BackupPC is a high-performance system for backing up to disk.
+* [Bareos](http://www.bareos.org/en/) - A fork of Bacula backup tool.
+* [BackupPC](https://backuppc.github.io/backuppc/) - BackupPC is a high-performance system for backing up to disk.
 * [Backupninja](https://0xacab.org/riseuplabs/backupninja) - Lightweight, extensible meta-backup system.
 * [Barman](http://www.pgbarman.org) - Backup and Recovery Manager for disaster recovery of PostgreSQL servers.
 * [BorgBackup](https://github.com/borgbackup/borg) - Fork of [Attic](https://attic-backup.org) deduplicating backup program written in Python.
@@ -108,6 +109,7 @@ Please read [CONTRIBUTING](.github/CONTRIBUTING.md) if you wish to add items to 
 * [EasyBuild](https://easybuild.readthedocs.org/en/latest/) - EasyBuild builds software and modulefiles for High Performance Computing (HPC) systems in an efficient way.
 * [environment-modules Lmod](https://www.tacc.utexas.edu/research-development/tacc-projects/lmod) - Lmod is a Lua based module system that easily handles the MODULEPATH Hierarchical problem.
 * [HPCBIOS](http://hpcbios.readthedocs.org/en/latest/) - HPCBIOS is an effort to setup a common, well-documented and reproducible, environment spanning across multiple HPC systems & sites, *inclusive* of documentation.
+* [Spack](https://spack.io/) - A flexible package manager that supports multiple versions, configurations, platforms, and compilers.
 
 ## ChatOps
 
@@ -222,9 +224,6 @@ Please read [CONTRIBUTING](.github/CONTRIBUTING.md) if you wish to add items to 
 - [PHP Censor](https://github.com/php-censor/php-censor) - Open source self-hosted continuous integration server for PHP projects. `BSD-2-Clause` `PHP`
 - [PHPCI](https://www.phptesting.org/) - Free and open source continuous integration specifically designed for PHP. ([Source Code](https://github.com/block8/phpci)) `BSD-2-Clause` `PHP`
 - [Strider](http://strider-cd.github.io/) - Open Source Continuous Deployment / Continuous Integration platform. ([Source Code](https://github.com/Strider-CD/strider)) `MIT` `Nodejs`
-
-
->>>>>>> upstream-master
 
 ## Control Panels
 
@@ -418,6 +417,7 @@ Please read [CONTRIBUTING](.github/CONTRIBUTING.md) if you wish to add items to 
 * [Munin](http://munin-monitoring.org/) - Networked resource monitoring tool.
 * [Naemon](http://www.naemon.org/) - Network monitoring tool based on the Nagios 4 core with performance enhancements and new features.
 * [Nagios](https://www.nagios.org/) - Computer system, network and infrastructure monitoring software application.
+* [Netdata](https://www.netdata.cloud/) - Distributed, real-time, performance and health monitoring for systems and applications. Runs on Linux, FreeBSD, and MacOS.
 * [NetXMS](https://www.netxms.org/) - Open Source network and infrastructure monitoring and management. ([Source Code](https://github.com/netxms/netxms))
 * [Observium](http://www.observium.org/) - SNMP monitoring for servers and networking devices. Runs on linux.
 * [OMD](http://omdistro.org/) - The Open Monitoring Distribution.
@@ -459,8 +459,8 @@ Please read [CONTRIBUTING](.github/CONTRIBUTING.md) if you wish to add items to 
   * [RRDtool](http://oss.oetiker.ch/rrdtool/) - Industry standard, high performance data logging and graphing system for time series data.
   * [Dashing](http://dashing.io/) - Ruby gem that allows for rapid statistical dashboard development. An all HTML5 approach allows for big screen displays in data centers or conference rooms.
   * [Facette](http://facette.io) - Time series data visualization and graphing software written in Go.
-  * [Freeboard](https://github.com/Freeboard/freeboard) - Damn-sexy front-end real-time dashboard for the internet of things. Transforms raw JSON into delicious UI.
-  * [Netdata](http://netdata.firehol.org/) - Real-time performance monitoring for Linux systems with plugin support.
+  * [Freeboard](https://github.com/Freeboard/freeboard) - A damn-sexy front-end real-time dashboard for the internet of things. Transforms raw JSON into delicious UI.
+  * [Netdata](https://www.netdata.cloud/) - Real-time performance monitoring for Linux systems with plugin support.
 
 * Storage
   * [OpenTSDB](http://opentsdb.net/) - Store and server massive amounts of time series data without losing granularity.
@@ -507,6 +507,7 @@ Please read [CONTRIBUTING](.github/CONTRIBUTING.md) if you wish to add items to 
   * [MongoDB](https://www.mongodb.org/) - Another document-oriented database system.
   * [RavenDB](http://ravendb.net/) - Document based database with ACID/Transactional features.
   * [RethinkDB](http://www.rethinkdb.com/) - Distributed document store database, focuses on JSON.
+  * [eXist-DB] (Https://www.exist-db.org/) - Open Source XML Database
 * Graph
   * [FlockDB](https://github.com/twitter/flockdb) - Twitter's distributed, fault-tolerant graph database.
   * [Neo4j](http://neo4j.com/) - Graph database.
@@ -625,6 +626,7 @@ Comparison of NoSQL servers: http://kkovacs.eu/cassandra-vs-mongodb-vs-couchdb-v
 * [QEMU](http://www.qemu.org/) - QEMU is a generic machine emulator and virtualizer.
 * [Vagrant](https://www.vagrantup.com/) - Tool for building complete development environments.
 * [VirtualBox](https://www.virtualbox.org/) - Virtualization product from Oracle Corporation.
+* [XCP-ng](http://www.xcp-ng.org/) - Based on Citrix XenServer, XCP-ng is a fully open source virtualization platform.
 * [Xen](http://www.xenproject.org/) - Virtual machine monitor for 32/64 bit Intel / AMD (IA 64) and PowerPC 970 architectures.
 * [XenServer](http://xenserver.org/) - Turnkey virtualization platform based on CentOS distribution, using Xen and an extended toolstack/API.
 
