@@ -2,69 +2,77 @@
 
 > A curated list of amazingly awesome Free Software and Open Source resources for system administrators.
 
-[System administration](https://en.wikipedia.org/wiki/System_administrator) is the practice of configuring, maintaining, and supporting the reliable operation of computer systems to support the work of others who need to use those systems. System administrators ("sysadmins") ensure that information technology systems are available for use and that the software applications running on those systems are performing adequately. For awesome software sysadmins might be requested to support, see [Awesome Self-Hosted](https://github.com/awesome-selfhosted/awesome-selfhosted). For educational material for becoming a sysadmin, see [AnarchoTech NYC's "Foundations: System administration" series](https://github.com/AnarchoTechNYC/meta/wiki/Foundations#system-administration). For related defensive security tooling, see [Awesome Cybersecurity Blue Team](https://github.com/fabacab/awesome-cybersecurity-blueteam).
+[System administration](https://en.wikipedia.org/wiki/System_administrator) is the practice of configuring, maintaining, and supporting the reliable operation of computer systems to support the work of others who need to use those systems. System administrators ("sysadmins") ensure that information technology systems are available for use and that the software applications running on those systems are performing adequately. For awesome software sysadmins might be requested to support, see [Awesome Self-Hosted](https://github.com/awesome-selfhosted/awesome-selfhosted). For educational material for becoming a sysadmin, see [Tech Learning Collective's "Foundations" series](https://techlearningcollective.com/foundations/). For related defensive security tooling, see [Awesome Cybersecurity Blue Team](https://github.com/fabacab/awesome-cybersecurity-blueteam).
 
 Please read [CONTRIBUTING](.github/CONTRIBUTING.md) if you wish to add items to this list. Your contributions and suggestions are welcome. :)
 
-* [Awesome Sysadmin](#awesome-sysadmin)
-  * [Automation](#automation)
-  * [Backups](#backups)
-  * [Build and software organization tools](#build-and-software-organization-tools)
-  * [ChatOps](#chatops)
-  * [Client Management](#client-management)
-  * [Cloning](#cloning)
-  * [Cloud Computing](#cloud-computing)
-  * [Cloud Orchestration](#cloud-orchestration)
-  * Cloud Storage: [see awesome-selfhosted#file-transfersynchronization](https://github.com/Kickball/awesome-selfhosted#file-transfersynchronization)
-  * [Code Review](#code-review)
-  * Collaborative Software: [see awesome-selfhosted#groupware](https://github.com/Kickball/awesome-selfhosted#groupware)
-  * [Configuration Management Database](#configuration-management-database)
-  * [Configuration Management](#configuration-management)
-  * [Continuous Integration & Continuous Deployment](#continuous-integration--continuous-deployment)
-  * [Control Panels](#control-panels)
-  * [Deployment Automation](#deployment-automation)
-  * [Diagramming](#diagramming)
-  * [Distributed Filesystems](#distributed-filesystems)
-  * [DNS](#dns)
-  * [Domains](#domains)
-  * [Editors](#editors)
-  * [Identity Management](#identity-management)
-  * [IT Asset Management](#it-asset-management)
-  * [Log Management](#log-management)
-  * [Mail Clients](#mail-clients)
-  * Mail servers/webmail: [see awesome-selfhosted#email](https://github.com/kickball/awesome-selfhosted#email)
-  * [Monitoring](#monitoring)
-  * [Metric & Metric Collection](#metric--metric-collection)
-  * [Network Configuration Management](#network-configuration-management)
-  * [Newsletter](#newsletters)
-  * [NoSQL](#nosql)
-  * [Packaging](#packaging)
-  * [Project Management](#project-management)
-  * [Queuing](#queuing)
-  * [RDBMS](#rdbms)
-  * [Remote Management](#remote-management)
-  * Security: [see awesome-security](https://github.com/sbilly/awesome-security)
-  * [Service Discovery](#service-discovery)
-  * [Software Containers](#software-containers)
-  * SSH: [see awesome-ssh](https://github.com/moul/awesome-ssh)
-  * Statistics: [see awesome-selfhosted#analytics](https://github.com/Kickball/awesome-selfhosted#analytics)
-  * [Status Pages](#status-pages)
-  * Ticketing systems: [see awesome-selfhosted#ticketing](https://github.com/Kickball/awesome-selfhosted#ticketing)
-  * [Troubleshooting](#troubleshooting)
-  * [Version control](#version-control)
-  * [Virtualization](#virtualization)
-  * [VPN](#vpn)
-  * XMPP: [see awesome-selfhosted#xmpp](https://github.com/Kickball/awesome-selfhosted#xmpp)
-  * [Web](#web)
-  * Wiki Software: [see awesome-selfhosted#wikis](https://github.com/Kickball/awesome-selfhosted#wikis), Sysadmin Wikis: [see #wikis](#wikis)
-* [Resources](#resources)
-  * [Blogs](#blogs)
-  * [Books](#books)
-  * [Communities/Forums](#communities--forums)
-  * [Newsletters](#newsletters)
-  * [Repositories](#repositories)
-  * [Websites](#websites)
-  * [Wikis](#wikis)
+Many IT professionals enable racist state violence, wittingly or unwittingly, by providing services to local, state, and federal policing agencies or otherwise cooperating with similar institutions who do so. This evil most often happens through the coercive mechanism of employment under threat of lack of access to food, shelter, or healthcare. Despite this list's public availability, it is the maintainer's intention and hope that this list supports the people and organizations who work to counter such massive albeit banal evil.
+
+![Image of a raised fist composed of the names of Black people murdered by taxpayer-funded racist police violence.](https://web.archive.org/web/20201028021653if_/https://lauerrealtygroup.com/wp-content/uploads/2020/06/BLM-FIST-scaled.jpg)
+
+![Image of a "Blue Lives Matter" flag with the thin blue line being peeled away to reveal a Nazi swastika underneath.](https://web.archive.org/web/20201123181815if_/https://i.redd.it/86pl28p0dl631.jpg)
+
+**[DEFUND THE POLICE.](https://defundthepolice.org/)**
+
+## Contents
+
+* [Automation](#automation)
+* [Backups](#backups)
+* [Build and software organization tools](#build-and-software-organization-tools)
+* [ChatOps](#chatops)
+* [Client Management](#client-management)
+* [Cloning](#cloning)
+* [Cloud Computing](#cloud-computing)
+* [Cloud Orchestration](#cloud-orchestration)
+* Cloud Storage: [see awesome-selfhosted#file-transfersynchronization](https://github.com/awesome-selfhosted/awesome-selfhosted#file-transfersynchronization)
+* [Code Review](#code-review)
+* Collaborative Software: [see awesome-selfhosted#groupware](https://github.com/awesome-selfhosted/awesome-selfhosted#groupware)
+* [Configuration Management Database](#configuration-management-database)
+* [Configuration Management](#configuration-management)
+* [Continuous Integration & Continuous Deployment](#continuous-integration--continuous-deployment)
+* [Control Panels](#control-panels)
+* [Deployment Automation](#deployment-automation)
+* [Diagramming](#diagramming)
+* [Distributed Filesystems](#distributed-filesystems)
+* [DNS](#dns)
+* [Domains](#domains)
+* [Editors](#editors)
+* [Identity Management](#identity-management)
+* [IT Asset Management](#it-asset-management)
+* [Log Management](#log-management)
+* [Mail Clients](#mail-clients)
+* Mail servers/webmail: [see awesome-selfhosted#email](https://github.com/kickball/awesome-selfhosted#email)
+* [Monitoring](#monitoring)
+* [Metric & Metric Collection](#metric--metric-collection)
+* [Network Configuration Management](#network-configuration-management)
+* [Newsletter](#newsletters)
+* [NoSQL](#nosql)
+* [Packaging](#packaging)
+* [Project Management](#project-management)
+* [Queuing](#queuing)
+* [RDBMS](#rdbms)
+* [Remote Management](#remote-management)
+* Security: [see awesome-security](https://github.com/sbilly/awesome-security)
+* [Service Discovery](#service-discovery)
+* [Software Containers](#software-containers)
+* SSH: [see awesome-ssh](https://github.com/moul/awesome-ssh)
+* Statistics: [see awesome-selfhosted#analytics](https://github.com/awesome-selfhosted/awesome-selfhosted#analytics)
+* [Status Pages](#status-pages)
+* Ticketing systems: [see awesome-selfhosted#ticketing](https://github.com/awesome-selfhosted/awesome-selfhosted#ticketing)
+* [Troubleshooting](#troubleshooting)
+* [Version control](#version-control)
+* [Virtualization](#virtualization)
+* [VPN](#vpn)
+* XMPP: [see awesome-selfhosted#xmpp](https://github.com/awesome-selfhosted/awesome-selfhosted#xmpp)
+* [Web](#web)
+* Wiki Software: [see awesome-selfhosted#wikis](https://github.com/awesome-selfhosted/awesome-selfhosted#wikis), Sysadmin Wikis: [see #wikis](#wikis)
+* [Blogs](#blogs)
+* [Books](#books)
+* [Communities/Forums](#communities--forums)
+* [Newsletters](#newsletters)
+* [Repositories](#repositories)
+* [Websites](#websites)
+* [Wikis](#wikis)
 
 ## Automation
 
@@ -243,7 +251,7 @@ Please read [CONTRIBUTING](.github/CONTRIBUTING.md) if you wish to add items to 
   * [PDNS Gui](https://github.com/odoucet/pdns-gui) - WebGUI which aids in administering domains and records for PowerDNS with MySQL.
   * [Pi-hole](https://pi-hole.net/) - Blackhole for Internet Advertisements with a gui for managing and monitoring.
   * [Poweradmin](http://www.poweradmin.org/) - Friendly web-based DNS administration tool for PowerDNS server.
-* Revision Control: see [awesome-selfhosted#project-management](https://github.com/Kickball/awesome-selfhosted#project-management)
+* Revision Control: see [awesome-selfhosted#project-management](https://github.com/awesome-selfhosted/awesome-selfhosted#project-management)
 * Virtualization
   * [OpenVZ Web Panel](https://github.com/sibprogrammer/owp) - Web panel to control OpenVZ virtual machines.
 * Server
@@ -547,7 +555,7 @@ Comparison of NoSQL servers: http://kkovacs.eu/cassandra-vs-mongodb-vs-couchdb-v
 
 ## Project Management
 
-*Web-based project management and bug tracking systems*: see https://github.com/Kickball/awesome-selfhosted#project-management
+*Web-based project management and bug tracking systems*: see https://github.com/awesome-selfhosted/awesome-selfhosted#project-management
 
 ## Queuing
 
@@ -672,10 +680,6 @@ Comparison of NoSQL servers: http://kkovacs.eu/cassandra-vs-mongodb-vs-couchdb-v
 
 * [HAProxy](http://www.haproxy.org/) - Software based load Balancing, SSL offloading and performance optimization, compression, and general web routing.
 * [Varnish](https://www.varnish-cache.org/) - HTTP based web application accelerator focusing on optimizing caching and compression.
-
-# Resources
-
-Various resources, such as books, websites and articles, for improving your skills and knowledge.
 
 ## Blogs
 
