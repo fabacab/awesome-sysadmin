@@ -2,7 +2,7 @@
 
 > A curated list of amazingly awesome Free Software and Open Source resources for system administrators.
 
-[System administration](https://en.wikipedia.org/wiki/System_administrator) is the practice of configuring, maintaining, and supporting the reliable operation of computer systems to support the work of others who need to use those systems. System administrators ("sysadmins") ensure that information technology systems are available for use and that the software applications running on those systems are performing adequately. For awesome software sysadmins might be requested to support, see [Awesome Self-Hosted](https://github.com/Kickball/awesome-selfhosted). For educational material for becoming a sysadmin, see [AnarchoTech NYC's "Foundations: System administration" series](https://github.com/AnarchoTechNYC/meta/wiki/Foundations#system-administration). For related defensive security tooling, see [Awesome Cybersecurity Blue Team](https://github.com/meitar/awesome-cybersecurity-blueteam).
+[System administration](https://en.wikipedia.org/wiki/System_administrator) is the practice of configuring, maintaining, and supporting the reliable operation of computer systems to support the work of others who need to use those systems. System administrators ("sysadmins") ensure that information technology systems are available for use and that the software applications running on those systems are performing adequately. For awesome software sysadmins might be requested to support, see [Awesome Self-Hosted](https://github.com/awesome-selfhosted/awesome-selfhosted). For educational material for becoming a sysadmin, see [AnarchoTech NYC's "Foundations: System administration" series](https://github.com/AnarchoTechNYC/meta/wiki/Foundations#system-administration). For related defensive security tooling, see [Awesome Cybersecurity Blue Team](https://github.com/fabacab/awesome-cybersecurity-blueteam).
 
 Please read [CONTRIBUTING](.github/CONTRIBUTING.md) if you wish to add items to this list. Your contributions and suggestions are welcome. :)
 
@@ -23,6 +23,7 @@ Please read [CONTRIBUTING](.github/CONTRIBUTING.md) if you wish to add items to 
   * [Continuous Integration & Continuous Deployment](#continuous-integration--continuous-deployment)
   * [Control Panels](#control-panels)
   * [Deployment Automation](#deployment-automation)
+  * [Diagramming](#diagramming)
   * [Distributed Filesystems](#distributed-filesystems)
   * [DNS](#dns)
   * [Domains](#domains)
@@ -79,7 +80,7 @@ Please read [CONTRIBUTING](.github/CONTRIBUTING.md) if you wish to add items to 
 
 ## Backups
 
-*Backup software.*
+*Backup software.* Also see [Restic's list of Linux backup software](https://github.com/restic/others).
 
 * [Amanda](http://www.amanda.org/) - Client-server model backup tool.
 * [Bareos](http://www.bareos.org/en/) - A fork of Bacula backup tool.
@@ -128,8 +129,8 @@ Please read [CONTRIBUTING](.github/CONTRIBUTING.md) if you wish to add items to 
 *Managing software on desktop computers.*
 
 * [Chocolatey](https://chocolatey.org/) – Windows CLI package manager written in .NET/PS, based on [NuGet](https://www.nuget.org/).
-* [just-install](http://just-install.it/) – Python script for downloading and silently installing MSI files.
-* [OCS Inventory NG](http://www.ocsinventory-ng.org/en/) - Inventory, deployment and network scan.
+* [just-install](https://just-install.github.io/) – Python script for downloading and silently installing MSI files.
+* [OCS Inventory NG](https://ocsinventory-ng.org/?lang=en) - Inventory, deployment and network scan.
 * [Opsi](http://www.opsi.org) (open PC server integration) - Client Management for Windows based on Debian.
 * [WAPT](https://dev.tranquil.it/wiki/WAPT_-_apt-get_pour_Windows/en) - Network-wide (un)installation, configuration and upgrades of Windows based software.
 * [WPKG](http://wpkg.org/) - Software deployment, upgrade and removal program for Windows.
@@ -205,7 +206,6 @@ Please read [CONTRIBUTING](.github/CONTRIBUTING.md) if you wish to add items to 
 * [Pallet](http://palletops.com/) - Infrastructure definition, configuration and management via a Clojure DSL.
 * [Puppet](https://puppet.com/) - It's written in Ruby and uses Puppet's declarative language or a Ruby DSL.
 * [Salt](http://saltstack.com/) - It's written in Python.
-* [Slaughter](http://www.steve.org.uk/Software/slaughter/) - It's written in Perl.
 
 ## Continuous Integration & Continuous Deployment
 
@@ -213,7 +213,8 @@ Please read [CONTRIBUTING](.github/CONTRIBUTING.md) if you wish to add items to 
 
 - [Buildbot](http://buildbot.net/) - Python-based toolkit for continuous integration. ([Source Code](https://github.com/buildbot/buildbot)) `GPL-2.0` `Python`
 - [CapsuleCD](https://analogj.github.io/capsulecd-slides/) - CD script for automating package/library releases (npm, cookbooks, gems, pip, jars, etc). ([Source Code](https://github.com/AnalogJ/capsulecd)) `MIT` `Go`
-- [Concourse](https://concourse.ci/) - Concourse is a CI tool that treats pipelines as first class objects and containerizes every step along the way. ([Demo](https://ci.concourse.ci/), [Source Code](https://github.com/concourse/concourse)) `Apache-2.0` `Go`
+- [CDS](https://ovh.github.io/cds/) - Enterprise-Grade Continuous Delivery & DevOps Automation Open Source Platform  ([Source Code](https://github.com/ovh/cds)) `BSD-3-Clause` `Go`
+- [Concourse](https://concourse-ci.org/) - Concourse is a CI tool that treats pipelines as first class objects and containerizes every step along the way. ([Demo](https://ci.concourse-ci.org/), [Source Code](https://github.com/concourse/concourse)) `Apache-2.0` `Go`
 - [drone](https://drone.io/) - Drone is a Continuous Delivery platform built on Docker, written in Go. ([Source Code](https://github.com/drone/drone)) `Apache-2.0` `Go`
 - [Factor](http://www.factor.io/) - Programmatically define and run workflows to connect configuration management, source code management, build, continuous integration, continuous deployment and communication tools. ([Source Code](https://github.com/factor-io/factor)) `MIT` `Ruby`
 - [GitLab CI](https://about.gitlab.com/gitlab-ci/) - Gitlab's built-in, full-featured CI/CD solution. ([Source Code](https://gitlab.com/gitlab-org/gitlab-ce) `MIT` `Ruby`
@@ -224,6 +225,7 @@ Please read [CONTRIBUTING](.github/CONTRIBUTING.md) if you wish to add items to 
 - [PHP Censor](https://github.com/php-censor/php-censor) - Open source self-hosted continuous integration server for PHP projects. `BSD-2-Clause` `PHP`
 - [PHPCI](https://www.phptesting.org/) - Free and open source continuous integration specifically designed for PHP. ([Source Code](https://github.com/block8/phpci)) `BSD-2-Clause` `PHP`
 - [Strider](http://strider-cd.github.io/) - Open Source Continuous Deployment / Continuous Integration platform. ([Source Code](https://github.com/Strider-CD/strider)) `MIT` `Nodejs`
+- [werf](https://werf.io/) - Open Source CI/CD tool for building Docker images and deploying to Kubernetes via GitOps. ([Source Code](https://github.com/werf/werf)) `Apache-2.0` `Go`
 
 ## Control Panels
 
@@ -243,9 +245,7 @@ Please read [CONTRIBUTING](.github/CONTRIBUTING.md) if you wish to add items to 
   * [Poweradmin](http://www.poweradmin.org/) - Friendly web-based DNS administration tool for PowerDNS server.
 * Revision Control: see [awesome-selfhosted#project-management](https://github.com/Kickball/awesome-selfhosted#project-management)
 * Virtualization
-  * [Feathur](http://feathur.com) - VPS Provisioning and Management Software.
   * [OpenVZ Web Panel](https://github.com/sibprogrammer/owp) - Web panel to control OpenVZ virtual machines.
-  * [WebVirtMgr](https://retspen.github.io) - libvirt-based Web interface for managing virtual machines.
 * Server
   * [Ajenti](http://ajenti.org/) - Control panel for Linux and BSD.
   * [Cockpit](http://cockpit-project.org/) - New multi-server web interface for Linux servers written in C.
@@ -263,11 +263,18 @@ Please read [CONTRIBUTING](.github/CONTRIBUTING.md) if you wish to add items to 
 * [sup](https://github.com/pressly/sup/) - Super simple deployment tool - just Unix - think of it like 'make' for a network of servers.
 * [Vlad the Deployer](https://github.com/seattlerb/vlad) - Deployment automation (rake based).
 
+## Diagramming
+
+*Tools used to create diagrams of networks, flows, etc.*
+
+* [DrawThe.Net](http://go.drawthe.net/) - Javascript tool that uses a YAML-formatted input to programmatically create large, complex, and visually solid diagrams.
+* [Mermaid](https://mermaid-js.github.io/mermaid-live-editor/) - Javascript module with a unique, easy, shorthand syntax. Integrates into several other tools like Grafana.
+* [Diagrams.net](https://app.diagrams.net/) - A.K.A. [Draw.io](https://app.diagrams.net/). Easy to use Diagram UI with a plethora of templates.
+
 ## Distributed Filesystems
 
 *Network distributed filesystems.*
 
-* [Camlistore](https://camlistore.org/) - Set of open source formats, protocols, and software for modeling, storing, searching, sharing and synchronizing data.
 * [Ceph](http://ceph.com/) - Distributed object store and file system.
 * [DRBD](http://drbd.linbit.com/) - Distributed Replicated Block Device.
 * [LeoFS](http://leo-project.net) - Unstructured object/data storage and a highly available, distributed, eventually consistent storage system.
@@ -275,10 +282,12 @@ Please read [CONTRIBUTING](.github/CONTRIBUTING.md) if you wish to add items to 
 * [Go IPFS](https://github.com/ipfs/go-ipfs) - Implementation of [IPFS](http://ipfs.io/), a global, versioned, peer-to-peer filesystem that seeks to connect all computing devices with the same system of files.
 * [HDFS](http://hadoop.apache.org/) - Distributed, scalable, and portable file-system written in Java for the Hadoop framework.
 * [Lustre](http://lustre.org/) - Parallel distributed file system, generally used for large-scale cluster computing.
+* [Minio](https://minio.io/) - Minio is an open source object storage server compatible with Amazon S3 APIs. ([Source Code](https://github.com/minio/minio)) `Apache-2.0` `Go`
 * [MooseFS](http://www.moosefs.org/) - Fault tolerant, network distributed file system.
 * [MogileFS](http://mogilefs.org/) - Application level, network distributed file system.
 * [OpenAFS](http://www.openafs.org/) - Distributed network file system with read-only replicas and multi-OS support.
 * [Ori Filesystem](http://ori.scs.stanford.edu/) - Secure distributed file system built for offline operation.
+* [Perkeep](https://perkeep.org/) - Set of open source formats, protocols, and software for modeling, storing, searching, sharing and synchronizing data, formerly known as Camlistore.
 * [Swift](http://docs.openstack.org/developer/swift/) - Highly available, distributed, eventually consistent object/blob store.
 * [SheepDog](https://sheepdog.github.io/sheepdog/) - Distributed Blockdevice, Rest, QEMU and distributed Filesystem storage.
 * [TahoeLAFS](https://tahoe-lafs.org/trac/tahoe-lafs) - secure, decentralized, fault-tolerant, peer-to-peer distributed data store and distributed file system.
@@ -361,8 +370,8 @@ Please read [CONTRIBUTING](.github/CONTRIBUTING.md) if you wish to add items to 
 
 *IT Assets Management software.*
 
-* [GLPI](http://www.glpi-project.org/spip.php?lang=en) - Information Resource-Manager with an additional Administration Interface.
-* [OCS Inventory NG](http://www.ocsinventory-ng.org/en/) - Enables users to inventory their IT assets.
+* [GLPI](https://www.glpi-project.org/) - Information Resource-Manager with an additional Administration Interface.
+* [OCS Inventory NG](https://ocsinventory-ng.org/?lang=en) - Enables users to inventory their IT assets.
 * [OPSI](http://www.opsi.org) - Hardware and software inventory, deployment, and patching for Linux and Windows.
 * [RackTables](http://racktables.org/) - Datacenter and server room asset management like document hardware assets, network addresses, space in racks, networks configuration.
 * [Ralph](https://github.com/allegro/ralph) - Asset management, DCIM and CMDB system for large Data Centers as well as smaller LAN networks.
@@ -397,7 +406,7 @@ Please read [CONTRIBUTING](.github/CONTRIBUTING.md) if you wish to add items to 
 
 * [Adagios](http://adagios.org/) - Web based Nagios interface for configuration and monitoring (replacement to the standard interface), and a REST interface. ([SourceCode](https://github.com/opinkerfi/adagios), [Documentation](https://github.com/opinkerfi/adagios/wiki))
 * [Alerta](https://github.com/guardian/alerta) - Distributed, scaleable and flexible monitoring system.
-* [Bloonix](https://bloonix.org) - Bloonix is a monitoring solution that helps businesses to ensure high availability and performance. `GPLv3` `Perl`
+* [Bloonix](https://bloonix-monitoring.org) - Monitoring solution that helps businesses ensure high availability and performance. `GPLv3` `Perl`
 * [bolo](http://bolo.niftylogic.com/) - Do-it-Yourself monitoring framework built to gather metrics, mine data and report on the systems in your network.
 * [Bosun](http://bosun.org/) - Monitoring and alerting system by Stack Exchange ([Source Code](https://github.com/bosun-monitor/bosun), [Documentation](http://bosun.org/quickstart.html)) `MIT` `Go`
 * [Cacti](http://www.cacti.net) - Web-based network monitoring and graphing tool.
@@ -440,12 +449,23 @@ Please read [CONTRIBUTING](.github/CONTRIBUTING.md) if you wish to add items to 
 * [Zabbix](http://www.zabbix.com/) - Enterprise-class software for monitoring of networks and applications.
 * [Zenoss](http://community.zenoss.org) - Application, server, and network management platform based on Zope.
 
-## Metric & Metric Collection
+### Status Pages
+
+* [Cachet](https://cachethq.io) - Status page system written in PHP.
+* [Stashboard](http://www.stashboard.org) - Status page for cloud services and APIs.
+* [Statusfy](https://statusfy.co/) - A modern status page for presenting critical service updates.
+* [System Status Dashboard (SSD)](http://www.system-status-dashboard.com/) - Overview about an organization's infrastructure health status.
+* [Staytus](http://staytus.co/) - Staytus is a complete solution for publishing the latest information about any issues with your web applications, networks or services.
+* [vigil](https://github.com/valeriansaliou/vigil) -  Microservices Status Page. Monitors a distributed infrastructure and sends alerts to Slack. Written in Rust.
+* [Statping](https://github.com/hunterlong/statping) - Status page system written in Go.
+* [netcheck](https://demo.ncheck.eu/#/info) – Simple ping status system written in Java, similar to Pingdom and StatusCake.
+
+### Metric & Metric Collection
 
 *Metric gathering and display software.*
 
 * Collectors only
-  * [Diamond](https://github.com/BrightcoveOS/Diamond) - Python based statistic collection daemon.
+  * [Diamond](https://github.com/python-diamond/Diamond) - Python based statistic collection daemon.
   * [Collectd](http://collectd.org/) - System statistic collection daemon.
   * [Collectl](http://collectl.sourceforge.net/) - High precision system performance metrics collecting tool.
   * [PGObserver](https://github.com/zalando/PGObserver) - Monitoring solution for PostgreSQL databases that also works with AWS RDS.
@@ -476,7 +496,7 @@ Please read [CONTRIBUTING](.github/CONTRIBUTING.md) if you wish to add items to 
 
 *Network configuration management tools.*
 
-* [GestióIP](http://www.gestioip.net/) - Automated web based IPv4/IPv6 IP Address Management tool.
+* [GestióIP](https://www.gestioip.net/) - Automated web based IPv4/IPv6 IP Address Management tool.
 * [GNS3](https://www.gns3.com/) - Graphical network simulator that provides a variety of virtual appliances - ([Source Code](https://github.com/GNS3/gns3-gui/), [Documentation](https://docs.gns3.com/)) - `GPLv3`
 * [Oxidized](https://github.com/ytti/oxidized) - Modern take on network device configuration monitoring with web interface and GIT storage.
 * [phpIPAM](http://phpipam.net/) - Open source IP address management with [PowerDNS](https://www.powerdns.com/) integration.
@@ -578,15 +598,6 @@ Comparison of NoSQL servers: http://kkovacs.eu/cassandra-vs-mongodb-vs-couchdb-v
   * [LXD](https://linuxcontainers.org/lxd/) – a container "hypervisor" and a better UX for LXC.
 * [OpenVZ](http://openvz.org) - Container-based virtualization for Linux.
 
-## Status Pages
-
-* [Cachet](https://cachethq.io) - Status page system written in PHP.
-* [Stashboard](http://www.stashboard.org) - Status page for cloud services and APIs.
-* [Statusfy](https://statusfy.co/) - A modern status page for presenting critical service updates.
-* [System Status Dashboard (SSD)](http://www.system-status-dashboard.com/) - Overview about an organization's infrastructure health status.
-* [Staytus](http://staytus.co/) - Staytus is a complete solution for publishing the latest information about any issues with your web applications, networks or services.
-* [vigil](https://github.com/valeriansaliou/vigil) -  Microservices Status Page. Monitors a distributed infrastructure and sends alerts to Slack. Written in Rust.
-
 ## Troubleshooting
 
 *Troubleshooting Tools.*
@@ -641,13 +652,15 @@ Comparison of NoSQL servers: http://kkovacs.eu/cassandra-vs-mongodb-vs-couchdb-v
 * [sshuttle](https://github.com/sshuttle/sshuttle) - Poor man's VPN.
 * [strongSwan](https://www.strongswan.org/) - Complete IPsec implementation for Linux.
 * [tinc](http://www.tinc-vpn.org/) - Distributed p2p VPN.
+* [WireGuard](https://www.wireguard.com/) - Very fast VPN based on elliptic curve and public key crypto.
+* [Nebula](https://github.com/slackhq/nebula) - A scalable p2p VPN with a focus on performance, simplicity and security.
 
 ## Web
 
 *Web servers.*
 
 * [Algernon](http://algernon.roboticoverlords.org/) - Web/application server that supports Lua, live-reload, templates, Sass and HTTP/2.
-* [Apache](http://httpd.apache.org/) - Most popular web server.
+* [Apache](http://httpd.apache.org/) - A robust, commercial-grade, featureful implementation of an HTTP (Web) server.
 * [Caddy](https://caddyserver.com/) - Lightweight, general-purpose web server supporting HTTP/2, automatic TLS and easy configuration. Written in Go.
 * [Cherokee](http://cherokee-project.com/) - Lightweight, high-performance web server/reverse proxy.
 * [Hiawatha](https://www.hiawatha-webserver.org/) - Prioritises security, simplicity and performance.
