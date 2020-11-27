@@ -1,8 +1,10 @@
 # Awesome Sysadmin [![Awesome](https://awesome.re/badge-flat2.svg)](https://awesome.re)
 
-> A curated list of amazingly awesome Free Software and Open Source resources for system administrators.
+> A curated list of amazingly awesome **[Free Software](https://www.gnu.org/philosophy/free-sw.html) and Open Source** resources for system administrators.
 
-[System administration](https://en.wikipedia.org/wiki/System_administrator) is the practice of configuring, maintaining, and supporting the reliable operation of computer systems to support the work of others who need to use those systems. System administrators ("sysadmins") ensure that information technology systems are available for use and that the software applications running on those systems are performing adequately. For awesome software sysadmins might be requested to support, see [Awesome Self-Hosted](https://github.com/awesome-selfhosted/awesome-selfhosted). For educational material for becoming a sysadmin, see [Tech Learning Collective's "Foundations" series](https://techlearningcollective.com/foundations/). For related defensive security tooling, see [Awesome Cybersecurity Blue Team](https://github.com/fabacab/awesome-cybersecurity-blueteam).
+[System administration](https://en.wikipedia.org/wiki/System_administrator) is the practice of configuring, maintaining, and supporting the reliable operation of computer systems to support the work of others who need to use those systems. System administrators ("sysadmins") ensure that information technology systems are available for use and that the software applications running on those systems are performing adequately.
+
+For awesome software sysadmins might be requested to support, see [Awesome Self-Hosted](https://github.com/awesome-selfhosted/awesome-selfhosted). For educational material for becoming a sysadmin, see [Tech Learning Collective's "Foundations" series](https://techlearningcollective.com/foundations/). For related defensive security tooling, see [Awesome Cybersecurity Blue Team](https://github.com/fabacab/awesome-cybersecurity-blueteam).
 
 Please read [CONTRIBUTING](.github/CONTRIBUTING.md) if you wish to add items to this list. Your contributions and suggestions are welcome. :)
 
@@ -16,9 +18,9 @@ Many IT professionals enable racist state violence, wittingly or unwittingly, by
 
 ## Contents
 
-* [Automation](#automation)
 * [Backups](#backups)
 * [Build and software organization tools](#build-and-software-organization-tools)
+    * [Build automation](#build-automation)
 * [ChatOps](#chatops)
 * [Client Management](#client-management)
 * [Cloning](#cloning)
@@ -28,9 +30,12 @@ Many IT professionals enable racist state violence, wittingly or unwittingly, by
 * [Code Review](#code-review)
 * Collaborative Software: [see awesome-selfhosted#groupware](https://github.com/awesome-selfhosted/awesome-selfhosted#groupware)
 * [Configuration Management Database](#configuration-management-database)
-* [Configuration Management](#configuration-management)
-* [Continuous Integration & Continuous Deployment](#continuous-integration--continuous-deployment)
-* [Control Panels](#control-panels)
+* [Configuration Management (CM)](#configuration-management-cm)
+* [Continuous Integration and Continuous Deployment](#continuous-integration-and-continuous-deployment)
+* [Control panels](#control-panels)
+    * [DNS control panels](#dns-control-panels)
+    * [Web hosting control panels](#web-hosting-control-panels)
+    * [Revision and version control panels](#revision-and-version-control-panels)
 * [Deployment Automation](#deployment-automation)
 * [Diagramming](#diagramming)
 * [Distributed Filesystems](#distributed-filesystems)
@@ -62,7 +67,7 @@ Many IT professionals enable racist state violence, wittingly or unwittingly, by
 * [Troubleshooting](#troubleshooting)
 * [Version control](#version-control)
 * [Virtualization](#virtualization)
-* [VPN](#vpn)
+* [Virtual Private Network (VPN)](#virtual-private-network-vpn)
 * XMPP: [see awesome-selfhosted#xmpp](https://github.com/awesome-selfhosted/awesome-selfhosted#xmpp)
 * [Web](#web)
 * Wiki Software: [see awesome-selfhosted#wikis](https://github.com/awesome-selfhosted/awesome-selfhosted#wikis), Sysadmin Wikis: [see #wikis](#wikis)
@@ -74,17 +79,6 @@ Many IT professionals enable racist state violence, wittingly or unwittingly, by
 * [Websites](#websites)
 * [Wikis](#wikis)
 
-## Automation
-
-*Automation build.*
-
-* [Apache Ant](https://ant.apache.org/) - Automation build tool, similar to make, written in Java.
-* [Apache Maven](http://maven.apache.org/) - Build automation tool mainly for Java.
-* [Bazel](http://www.bazel.io/) - Google's build system.
-* [GNU Make](http://www.gnu.org/software/make/) - The most popular automation build tool for many purposes.
-* [Gradle](http://gradle.org/) - Another build automation system.
-* [Rake](https://github.com/ruby/rake) - Build automation tool similar to Make, written in and extensible in Ruby.
-* [Bolt](https://puppet.com/products/bolt) - You can use Bolt to run one-off tasks, scripts to automate the provisioning and management of some nodes, you can use Bolt to move a step beyond scripts, and make them shareable.
 
 ## Backups
 
@@ -113,12 +107,19 @@ Many IT professionals enable racist state violence, wittingly or unwittingly, by
 
 ## Build and software organization tools
 
-*Build and software organization tools.*
+* [EasyBuild](https://easybuild.readthedocs.org/en/latest/) - Build software and modulefiles for High Performance Computing (HPC) systems in an efficient way.
+* [environment-modules Lmod](https://www.tacc.utexas.edu/research-development/tacc-projects/lmod) - Lua-based module system that easily handles the MODULEPATH Hierarchical problem.
+* [HPCBIOS](http://hpcbios.readthedocs.org/en/latest/) - Effort to setup a common, well-documented and reproducible environment spanning across multiple HPC systems and sites, *inclusive* of documentation.
+* [Spack](https://spack.io/) - Flexible package manager that supports multiple versions, configurations, platforms, and compilers.
 
-* [EasyBuild](https://easybuild.readthedocs.org/en/latest/) - EasyBuild builds software and modulefiles for High Performance Computing (HPC) systems in an efficient way.
-* [environment-modules Lmod](https://www.tacc.utexas.edu/research-development/tacc-projects/lmod) - Lmod is a Lua based module system that easily handles the MODULEPATH Hierarchical problem.
-* [HPCBIOS](http://hpcbios.readthedocs.org/en/latest/) - HPCBIOS is an effort to setup a common, well-documented and reproducible, environment spanning across multiple HPC systems & sites, *inclusive* of documentation.
-* [Spack](https://spack.io/) - A flexible package manager that supports multiple versions, configurations, platforms, and compilers.
+### Build automation
+
+* [Apache Ant](https://ant.apache.org/) - Automation build tool, similar to make, written in Java.
+* [Apache Maven](http://maven.apache.org/) - Build automation tool mainly for Java.
+* [Bazel](http://www.bazel.io/) - Google's build system.
+* [GNU Make](http://www.gnu.org/software/make/) - The most popular automation build tool for many purposes.
+* [Gradle](http://gradle.org/) - Build automation system popular for mobile (smartphone) apps and useful for teams.
+* [Rake](https://github.com/ruby/rake) - Build automation tool similar to Make, written in and extensible in Ruby.
 
 ## ChatOps
 
@@ -204,60 +205,67 @@ Many IT professionals enable racist state violence, wittingly or unwittingly, by
 * [Collins](http://tumblr.github.io/collins/) - At Tumblr, it's the infrastructure source of truth and knowledge.
 * [netbox](https://github.com/digitalocean/netbox) - IP address management (IPAM) and data center infrastructure management (DCIM) tool.
 
-## Configuration Management
+## Configuration Management (CM)
 
-*Configuration management tools.*
+*Tools for (re)aligning a system's performance with its requirements throughout its lifecycle.*
+
+See also [wmariuss/awesome-devops § Automation & Orchestration](https://github.com/wmariuss/awesome-devops#automation--orchestration).
 
 * [Ansible](http://www.ansible.com/) - It's written in Python and manages the nodes over SSH.
+* [Bolt](https://puppet.com/products/bolt) - Open source task orchestration tool useful for automating the manual work it takes to maintain IT infrastructure.
 * [CFEngine](https://cfengine.com/) - Lightweight agent system. Configuration state is specified via a declarative language.
 * [Chef](https://www.chef.io/chef/) - It's written in Ruby and Erlang and uses a pure-Ruby DSL.
 * [Pallet](http://palletops.com/) - Infrastructure definition, configuration and management via a Clojure DSL.
 * [Puppet](https://puppet.com/) - It's written in Ruby and uses Puppet's declarative language or a Ruby DSL.
 * [Salt](http://saltstack.com/) - It's written in Python.
 
-## Continuous Integration & Continuous Deployment
+## Continuous Integration and Continuous Deployment
 
-*Continuous integration/deployment software.*
+* [Buildbot](http://buildbot.net/) - Python-based toolkit for continuous integration. ([Source Code](https://github.com/buildbot/buildbot)) `GPL-2.0` `Python`
+* [CapsuleCD](https://analogj.github.io/capsulecd-slides/) - CD script for automating package/library releases (npm, cookbooks, gems, pip, jars, etc). ([Source Code](https://github.com/AnalogJ/capsulecd)) `MIT` `Go`
+* [CDS](https://ovh.github.io/cds/) - Enterprise-Grade Continuous Delivery & DevOps Automation Open Source Platform  ([Source Code](https://github.com/ovh/cds)) `BSD-3-Clause` `Go`
+* [Concourse](https://concourse-ci.org/) - Concourse is a CI tool that treats pipelines as first class objects and containerizes every step along the way. ([Demo](https://ci.concourse-ci.org/), [Source Code](https://github.com/concourse/concourse)) `Apache-2.0` `Go`
+* [drone](https://drone.io/) - Drone is a Continuous Delivery platform built on Docker, written in Go. ([Source Code](https://github.com/drone/drone)) `Apache-2.0` `Go`
+* [Factor](http://www.factor.io/) - Programmatically define and run workflows to connect configuration management, source code management, build, continuous integration, continuous deployment and communication tools. ([Source Code](https://github.com/factor-io/factor)) `MIT` `Ruby`
+* [GitLab CI](https://about.gitlab.com/gitlab-ci/) - Gitlab's built-in, full-featured CI/CD solution. ([Source Code](https://gitlab.com/gitlab-org/gitlab-ce) `MIT` `Ruby`
+* [GoCD](http://www.go.cd/) - Continuous delivery server. ([Source Code](https://github.com/gocd/gocd)) `Apache-2.0` `Java/Ruby`
+* [GolangCI](https://golangci.com/) - Open Source automated code review service for Go integrated with GitHub pull requests. ([Source Code](https://github.com/golangci/golangci)) `AGPL-3.0` `Go`
+* [Jenkins](https://jenkins-ci.org/) - Continuous Integration Server. ([Source Code](https://github.com/jenkinsci/jenkins/)) `MIT` `Java`
+* [Laminar](http://laminar.ohwg.net) - Fast, lightweight, simple and flexible Continuous Integration. ([Source Code](https://github.com/ohwgiles/laminar)) `GPL-3.0` `C++`
+* [PHP Censor](https://github.com/php-censor/php-censor) - Open source self-hosted continuous integration server for PHP projects. `BSD-2-Clause` `PHP`
+* [PHPCI](https://www.phptesting.org/) - Free and open source continuous integration specifically designed for PHP. ([Source Code](https://github.com/block8/phpci)) `BSD-2-Clause` `PHP`
+* [Strider](http://strider-cd.github.io/) - Open Source Continuous Deployment / Continuous Integration platform. ([Source Code](https://github.com/Strider-CD/strider)) `MIT` `Nodejs`
+* [werf](https://werf.io/) - Open Source CI/CD tool for building Docker images and deploying to Kubernetes via GitOps. ([Source Code](https://github.com/werf/werf)) `Apache-2.0` `Go`
 
-- [Buildbot](http://buildbot.net/) - Python-based toolkit for continuous integration. ([Source Code](https://github.com/buildbot/buildbot)) `GPL-2.0` `Python`
-- [CapsuleCD](https://analogj.github.io/capsulecd-slides/) - CD script for automating package/library releases (npm, cookbooks, gems, pip, jars, etc). ([Source Code](https://github.com/AnalogJ/capsulecd)) `MIT` `Go`
-- [CDS](https://ovh.github.io/cds/) - Enterprise-Grade Continuous Delivery & DevOps Automation Open Source Platform  ([Source Code](https://github.com/ovh/cds)) `BSD-3-Clause` `Go`
-- [Concourse](https://concourse-ci.org/) - Concourse is a CI tool that treats pipelines as first class objects and containerizes every step along the way. ([Demo](https://ci.concourse-ci.org/), [Source Code](https://github.com/concourse/concourse)) `Apache-2.0` `Go`
-- [drone](https://drone.io/) - Drone is a Continuous Delivery platform built on Docker, written in Go. ([Source Code](https://github.com/drone/drone)) `Apache-2.0` `Go`
-- [Factor](http://www.factor.io/) - Programmatically define and run workflows to connect configuration management, source code management, build, continuous integration, continuous deployment and communication tools. ([Source Code](https://github.com/factor-io/factor)) `MIT` `Ruby`
-- [GitLab CI](https://about.gitlab.com/gitlab-ci/) - Gitlab's built-in, full-featured CI/CD solution. ([Source Code](https://gitlab.com/gitlab-org/gitlab-ce) `MIT` `Ruby`
-- [GoCD](http://www.go.cd/) - Continuous delivery server. ([Source Code](https://github.com/gocd/gocd)) `Apache-2.0` `Java/Ruby`
-- [GolangCI](https://golangci.com/) - Open Source automated code review service for Go integrated with GitHub pull requests. ([Source Code](https://github.com/golangci/golangci)) `AGPL-3.0` `Go`
-- [Jenkins](https://jenkins-ci.org/) - Continuous Integration Server. ([Source Code](https://github.com/jenkinsci/jenkins/)) `MIT` `Java`
-- [Laminar](http://laminar.ohwg.net) - Fast, lightweight, simple and flexible Continuous Integration. ([Source Code](https://github.com/ohwgiles/laminar)) `GPL-3.0` `C++`
-- [PHP Censor](https://github.com/php-censor/php-censor) - Open source self-hosted continuous integration server for PHP projects. `BSD-2-Clause` `PHP`
-- [PHPCI](https://www.phptesting.org/) - Free and open source continuous integration specifically designed for PHP. ([Source Code](https://github.com/block8/phpci)) `BSD-2-Clause` `PHP`
-- [Strider](http://strider-cd.github.io/) - Open Source Continuous Deployment / Continuous Integration platform. ([Source Code](https://github.com/Strider-CD/strider)) `MIT` `Nodejs`
-- [werf](https://werf.io/) - Open Source CI/CD tool for building Docker images and deploying to Kubernetes via GitOps. ([Source Code](https://github.com/werf/werf)) `Apache-2.0` `Go`
+## Control panels
 
-## Control Panels
+### DNS control panels
 
-*Web hosting and server or service control panels.*
+* [Atomia DNS](http://atomiadns.com/) - DNS management system.
+* [nsedit](https://github.com/tuxis-ie/nsedit) - nsedit is a DNS editor for PowerDNS, working with PowerDNS's new API.
+* [PDNS Gui](https://github.com/odoucet/pdns-gui) - WebGUI which aids in administering domains and records for PowerDNS with MySQL.
+* [Pi-hole](https://pi-hole.net/) - Blackhole for Internet Advertisements with a gui for managing and monitoring.
+* [Poweradmin](http://www.poweradmin.org/) - Friendly web-based DNS administration tool for PowerDNS server.
 
-* Web hosting
-  * [Froxlor](https://froxlor.org/) - Easy to use panel for Linux with Nginx and PHP-FPM support.
-  * [ISPConfig](http://www.ispconfig.org) - Hosting control panel for Linux.
-  * [Sentora](http://sentora.org/) - Control panel for Linux, BSD, and Windows based on ZPanel.
-  * [VestaCP](http://vestacp.com/) - Hosting panel for Linux but with Nginx.
-  * [Virtualmin](http://www.virtualmin.com/) - Hosting panel for Linux based on webmin.
-* DNS
-  * [Atomia DNS](http://atomiadns.com/) - DNS management system.
-  * [nsedit](https://github.com/tuxis-ie/nsedit) - nsedit is a DNS editor for PowerDNS, working with PowerDNS's new API.
-  * [PDNS Gui](https://github.com/odoucet/pdns-gui) - WebGUI which aids in administering domains and records for PowerDNS with MySQL.
-  * [Pi-hole](https://pi-hole.net/) - Blackhole for Internet Advertisements with a gui for managing and monitoring.
-  * [Poweradmin](http://www.poweradmin.org/) - Friendly web-based DNS administration tool for PowerDNS server.
-* Revision Control: see [awesome-selfhosted#project-management](https://github.com/awesome-selfhosted/awesome-selfhosted#project-management)
-* Virtualization
-  * [OpenVZ Web Panel](https://github.com/sibprogrammer/owp) - Web panel to control OpenVZ virtual machines.
+### Web hosting control panels
+
+* [Froxlor](https://froxlor.org/) - Easy to use panel for Linux with Nginx and PHP-FPM support.
+* [ISPConfig](http://www.ispconfig.org) - Hosting control panel for Linux.
+* [Sentora](http://sentora.org/) - Control panel for Linux, BSD, and Windows based on ZPanel.
+* [VestaCP](http://vestacp.com/) - Hosting panel for Linux but with Nginx.
+* [Virtualmin](http://www.virtualmin.com/) - Hosting panel for Linux based on webmin.
+
+### Revision and version control panels
+
+See [awesome-selfhosted#project-management](https://github.com/awesome-selfhosted/awesome-selfhosted#project-management).
+
+### Virtualization control panels
+
+* [OpenVZ Web Panel](https://github.com/sibprogrammer/owp) - Web panel to control OpenVZ virtual machines.
 * Server
-  * [Ajenti](http://ajenti.org/) - Control panel for Linux and BSD.
-  * [Cockpit](http://cockpit-project.org/) - New multi-server web interface for Linux servers written in C.
-  * [Webmin](http://www.webmin.com/) - Linux server control panel.
+* [Ajenti](http://ajenti.org/) - Control panel for Linux and BSD.
+* [Cockpit](http://cockpit-project.org/) - New multi-server web interface for Linux servers written in C.
+* [Webmin](http://www.webmin.com/) - Linux server control panel.
 
 ## Deployment Automation
 
@@ -649,9 +657,7 @@ Comparison of NoSQL servers: http://kkovacs.eu/cassandra-vs-mongodb-vs-couchdb-v
 * [Xen](http://www.xenproject.org/) - Virtual machine monitor for 32/64 bit Intel / AMD (IA 64) and PowerPC 970 architectures.
 * [XenServer](http://xenserver.org/) - Turnkey virtualization platform based on CentOS distribution, using Xen and an extended toolstack/API.
 
-## VPN
-
-*VPN software.*
+## Virtual Private Network (VPN)
 
 * [ocserv](http://www.infradead.org/ocserv/) - Cisco AnyConnect-compatible VPN server.
 * [OpenVPN](https://community.openvpn.net) - Uses a custom security protocol that utilizes SSL/TLS for key exchange.
