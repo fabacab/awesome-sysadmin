@@ -32,15 +32,13 @@ Many IT professionals enable racist state violence, wittingly or unwittingly, by
 * [Configuration Management Database](#configuration-management-database)
 * [Configuration Management (CM)](#configuration-management-cm)
 * [Continuous Integration and Continuous Deployment](#continuous-integration-and-continuous-deployment)
-* [Control panels](#control-panels)
-    * [DNS control panels](#dns-control-panels)
-    * [Web hosting control panels](#web-hosting-control-panels)
-    * [Revision and version control panels](#revision-and-version-control-panels)
 * [Deployment Automation](#deployment-automation)
 * [Diagramming](#diagramming)
 * [Distributed Filesystems](#distributed-filesystems)
-* [DNS](#dns)
-* [Domains](#domains)
+* [Domain Name System (DNS)](#domain-name-system-dns)
+    * [DNS control panels](#dns-control-panels)
+    * [DNS servers](#dns-servers)
+    * [Domain management](#domain-management)
 * [Editors](#editors)
 * [Identity Management](#identity-management)
 * [IT Asset Management](#it-asset-management)
@@ -53,7 +51,7 @@ Many IT professionals enable racist state violence, wittingly or unwittingly, by
 * [Newsletter](#newsletters)
 * [NoSQL](#nosql)
 * [Packaging](#packaging)
-* [Project Management](#project-management)
+* [Project management](#project-management)
 * [Queuing](#queuing)
 * [RDBMS](#rdbms)
 * [Remote Management](#remote-management)
@@ -65,11 +63,17 @@ Many IT professionals enable racist state violence, wittingly or unwittingly, by
 * [Status Pages](#status-pages)
 * Ticketing systems: [see awesome-selfhosted#ticketing](https://github.com/awesome-selfhosted/awesome-selfhosted#ticketing)
 * [Troubleshooting](#troubleshooting)
-* [Version control](#version-control)
-* [Virtualization](#virtualization)
+* [Version Control Systems (VCS)](#version-control-systems-vcs)
 * [Virtual Private Network (VPN)](#virtual-private-network-vpn)
+* [Virtualization](#virtualization)
+    * [Hypervisor automation](#hypervisor-automation)
+    * [Hypervisors and Virtual Machine Managers/Monitors (VMMs)](#hypervisors-and-virtual-machine-managersmonitors-vmms)
+    * [Virtualization management solutions](#virtualization-management-solutions)
 * XMPP: [see awesome-selfhosted#xmpp](https://github.com/awesome-selfhosted/awesome-selfhosted#xmpp)
-* [Web](#web)
+* [World Wide Web (WWW)](#world-wide-web-www)
+    * [Web hosting control panels](#web-hosting-control-panels)
+    * [Web servers](#web-servers)
+    * [Web performance](#web-performance)
 * Wiki Software: [see awesome-selfhosted#wikis](https://github.com/awesome-selfhosted/awesome-selfhosted#wikis), Sysadmin Wikis: [see #wikis](#wikis)
 * [Blogs](#blogs)
 * [Books](#books)
@@ -237,35 +241,9 @@ See also [wmariuss/awesome-devops § Automation & Orchestration](https://github.
 * [Strider](http://strider-cd.github.io/) - Open Source Continuous Deployment / Continuous Integration platform. ([Source Code](https://github.com/Strider-CD/strider)) `MIT` `Nodejs`
 * [werf](https://werf.io/) - Open Source CI/CD tool for building Docker images and deploying to Kubernetes via GitOps. ([Source Code](https://github.com/werf/werf)) `Apache-2.0` `Go`
 
-## Control panels
-
-### DNS control panels
-
-* [Atomia DNS](http://atomiadns.com/) - DNS management system.
-* [nsedit](https://github.com/tuxis-ie/nsedit) - nsedit is a DNS editor for PowerDNS, working with PowerDNS's new API.
-* [PDNS Gui](https://github.com/odoucet/pdns-gui) - WebGUI which aids in administering domains and records for PowerDNS with MySQL.
-* [Pi-hole](https://pi-hole.net/) - Blackhole for Internet Advertisements with a gui for managing and monitoring.
-* [Poweradmin](http://www.poweradmin.org/) - Friendly web-based DNS administration tool for PowerDNS server.
-
-### Web hosting control panels
-
-* [Froxlor](https://froxlor.org/) - Easy to use panel for Linux with Nginx and PHP-FPM support.
-* [ISPConfig](http://www.ispconfig.org) - Hosting control panel for Linux.
-* [Sentora](http://sentora.org/) - Control panel for Linux, BSD, and Windows based on ZPanel.
-* [VestaCP](http://vestacp.com/) - Hosting panel for Linux but with Nginx.
-* [Virtualmin](http://www.virtualmin.com/) - Hosting panel for Linux based on webmin.
-
-### Revision and version control panels
+### Project management
 
 See [awesome-selfhosted#project-management](https://github.com/awesome-selfhosted/awesome-selfhosted#project-management).
-
-### Virtualization control panels
-
-* [OpenVZ Web Panel](https://github.com/sibprogrammer/owp) - Web panel to control OpenVZ virtual machines.
-* Server
-* [Ajenti](http://ajenti.org/) - Control panel for Linux and BSD.
-* [Cockpit](http://cockpit-project.org/) - New multi-server web interface for Linux servers written in C.
-* [Webmin](http://www.webmin.com/) - Linux server control panel.
 
 ## Deployment Automation
 
@@ -309,9 +287,17 @@ See [awesome-selfhosted#project-management](https://github.com/awesome-selfhoste
 * [TahoeLAFS](https://tahoe-lafs.org/trac/tahoe-lafs) - secure, decentralized, fault-tolerant, peer-to-peer distributed data store and distributed file system.
 * [XtreemFS](http://www.xtreemfs.org/) - XtreemFS is a fault-tolerant distributed file system for all storage needs.
 
-## DNS
+## Domain Name System (DNS)
 
-*DNS servers.*
+### DNS control panels
+
+* [Atomia DNS](http://atomiadns.com/) - DNS management system.
+* [nsedit](https://github.com/tuxis-ie/nsedit) - nsedit is a DNS editor for PowerDNS, working with PowerDNS's new API.
+* [PDNS Gui](https://github.com/odoucet/pdns-gui) - WebGUI which aids in administering domains and records for PowerDNS with MySQL.
+* [Pi-hole](https://pi-hole.net/) - Blackhole for Internet advertisements with a GUI for managing and monitoring.
+* [Poweradmin](https://www.poweradmin.org/) - Friendly Web-based DNS administration tool for PowerDNS server.
+
+### DNS servers
 
 * [Bind](https://www.isc.org/downloads/bind/) - The most widely used name server software.
 * [CoreDNS](https://coredns.io/) - Flexible DNS server written on Go.
@@ -324,9 +310,7 @@ See [awesome-selfhosted#project-management](https://github.com/awesome-selfhoste
 * [Unbound](http://unbound.net/) - Validating, recursive, and caching DNS resolver.
 * [Yadifa](http://www.yadifa.eu/) - Lightweight authoritative Name Server with DNSSEC capabilities powering the .eu top-level domain.
 
-## Domains
-
-*Domain management.*
+### Domain management
 
 * [DnsControl](https://stackexchange.github.io/dnscontrol/) - Opinionated platform for seamlessly managing your DNS configuration across any number of DNS hosts, both in the cloud or in your own infrastructure.
 * [DomainMOD](https://domainmod.org) - Manage your domains and other internet assets in a central location.
@@ -561,9 +545,9 @@ Comparison of NoSQL servers: http://kkovacs.eu/cassandra-vs-mongodb-vs-couchdb-v
 * [packman](http://packman.readthedocs.org) - Full stack, cross distro packaging software (Python).
 * [tito](https://github.com/dgoodwin/tito) - Builds RPMs for git-based projects.
 
-## Project Management
+## Project management
 
-*Web-based project management and bug tracking systems*: see https://github.com/awesome-selfhosted/awesome-selfhosted#project-management
+See [awesome-selfhosted/awesome-selfhosted § Project management](https://github.com/awesome-selfhosted/awesome-selfhosted#project-management)
 
 ## Queuing
 
@@ -626,9 +610,9 @@ Comparison of NoSQL servers: http://kkovacs.eu/cassandra-vs-mongodb-vs-couchdb-v
 * [Sysdig](http://www.sysdig.org/) - Capture system state and activity from a running Linux instance, then save, filter and analyze.
 * [Wireshark](https://www.wireshark.org/) - The world's foremost network protocol analyzer.
 
-## Version control
+## Version Control Systems (VCS)
 
-*Software versioning and revision control.*
+*Software versioning and revision control or source code management (SCM) systems.*
 
 * [Fossil](http://www.fossil-scm.org/) - Distributed version control with built-in wiki and bug tracking.
 * [Git](http://git-scm.com/) - Distributed revision control and source code management (SCM) with an emphasis on speed.
@@ -637,52 +621,74 @@ Comparison of NoSQL servers: http://kkovacs.eu/cassandra-vs-mongodb-vs-couchdb-v
 * [Subversion](http://subversion.apache.org/) - Client-server revision control system.
 * [Darcs](http://darcs.net/) - Patch-based distributed version control (more info: [wiki](http://darcs.net/Theory/PekkaPatchTheory)).
 
-## Virtualization
-
-*Virtualization software.*
-
-* [Archipel](http://archipelproject.org/) - XMPP based virtualization management platform.
-* [ConVirt](http://www.convirture.com/products_opensource.php) - Provides the core functionality for centrally managing your KVM or Xen virtualized environment.
-* [Ganeti](http://www.ganeti.org/) - Cluster virtual server management software tool built on top of KVM and Xen.
-* [KVM](http://www.linux-kvm.org) - Linux kernel virtualization infrastructure.
-* [OpenNebula](http://opennebula.org/) - Flexible enterprise cloud made simple.
-* [OpenNode](http://opennodecloud.com) - Builds open-source infrastructure management software and implements cloud systems.
-* [oVirt](http://www.ovirt.org/) - Manages virtual machines, storage and virtual networks.
-* [Packer](https://www.packer.io/) - Tool for creating identical machine images for multiple platforms from a single source configuration.
-* [Proxmox VE](https://www.proxmox.com/proxmox-ve) - Virtualization management solution.
-* [QEMU](http://www.qemu.org/) - QEMU is a generic machine emulator and virtualizer.
-* [Vagrant](https://www.vagrantup.com/) - Tool for building complete development environments.
-* [VirtualBox](https://www.virtualbox.org/) - Virtualization product from Oracle Corporation.
-* [XCP-ng](http://www.xcp-ng.org/) - Based on Citrix XenServer, XCP-ng is a fully open source virtualization platform.
-* [Xen](http://www.xenproject.org/) - Virtual machine monitor for 32/64 bit Intel / AMD (IA 64) and PowerPC 970 architectures.
-* [XenServer](http://xenserver.org/) - Turnkey virtualization platform based on CentOS distribution, using Xen and an extended toolstack/API.
-
 ## Virtual Private Network (VPN)
 
 * [ocserv](http://www.infradead.org/ocserv/) - Cisco AnyConnect-compatible VPN server.
 * [OpenVPN](https://community.openvpn.net) - Uses a custom security protocol that utilizes SSL/TLS for key exchange.
 * [Pritunl](http://pritunl.com/) - OpenVPN based solution. Easy to set up.
 * [SoftEther](https://www.softether.org/) - Multi-protocol software VPN with advanced features.
-* [sshuttle](https://github.com/sshuttle/sshuttle) - Poor man's VPN.
+* [sshuttle](https://github.com/sshuttle/sshuttle) - Transparent proxy server that works as a poor person's VPN by forwarding connections over SSH without requiring admin permissions.
 * [strongSwan](https://www.strongswan.org/) - Complete IPsec implementation for Linux.
 * [tinc](http://www.tinc-vpn.org/) - Distributed p2p VPN.
 * [WireGuard](https://www.wireguard.com/) - Very fast VPN based on elliptic curve and public key crypto.
 * [Nebula](https://github.com/slackhq/nebula) - A scalable p2p VPN with a focus on performance, simplicity and security.
 
-## Web
+## Virtualization
 
-*Web servers.*
+See also [Wenzel/awesome-virtualization](https://github.com/Wenzel/awesome-virtualization).
+
+### Hypervisor automation
+
+See also [§ Cloud orchestration](#cloud-orchestration).
+
+* [Packer](https://www.packer.io/) - Tool for creating identical (virtual) machine images for multiple platforms from a single source configuration.
+* [Vagrant](https://www.vagrantup.com/) - Tool for building complete development environments.
+
+### Hypervisors and Virtual Machine Managers/Monitors (VMMs)
+
+* [KVM](http://www.linux-kvm.org) - Linux kernel virtualization infrastructure.
+* [QEMU](http://www.qemu.org/) - Generic machine emulator and virtualizer.
+* [VirtualBox](https://www.virtualbox.org/) - Free Software type-2 (hosted) virtualization product from Oracle Corporation.
+* [Xen](https://xenproject.org/) - Virtual machine monitor for 32/64 bit Intel/AMD (IA 64) and PowerPC 970 architectures.
+
+### Virtualization management solutions
+
+* [Ganeti](http://www.ganeti.org/) - Virtual machine cluster management tool built on top of existing virtualization technologies such as Xen or KVM and other open source software.
+* [OpenNebula](https://opennebula.io/) - Simple, but powerful, open source solution to build and manage enterprise clouds.
+* [OpenVZ Web Panel](https://github.com/sibprogrammer/owp) - Web panel to control OpenVZ virtual machines.
+* [oVirt](http://www.ovirt.org/) - Open-source distributed virtualization solution, designed to manage your entire enterprise infrastructure, using the KVM hypervisor.
+* [Proxmox VE](https://www.proxmox.com/proxmox-ve) - Complete open-source platform for enterprise virtualization providing a Web-based interface and API for managing VMs and containers, software-defined storage and networking, and high-availability clustering.
+* [XCP-ng](https://xcp-ng.org/) - Turnkey open source hypervisor platform based on the open source ancestor of Citrix Hypervisor, XenServer.
+
+## World Wide Web (WWW)
+
+### Web hosting control panels
+
+*Web-based interfaces enabling administrators or end-users to manage their own or system-wide hosted services.*
+
+* [Ajenti](https://ajenti.org/) - Control panel for Linux and BSD.
+* [Cockpit](https://cockpit-project.org/) - Administrator's tool for managing multiple GNU/Linux servers from a single Web-based interface.
+* [Froxlor](https://froxlor.org/) - Easy to use panel for Linux with Nginx and PHP-FPM support.
+* [ISPConfig](http://www.ispconfig.org) - Hosting control panel for Linux.
+* [Sentora](http://sentora.org/) - Control panel for Linux, BSD, and Windows based on ZPanel.
+* [VestaCP](http://vestacp.com/) - Hosting panel for Linux but with Nginx.
+* [Virtualmin](http://www.virtualmin.com/) - Hosting panel for Linux based on webmin.
+* [Webmin](https://www.webmin.com/) - Web-based interface for general system administration tasks for Unix servers.
+
+### Web servers
+
+(Also known as *HTTP servers*.)
 
 * [Algernon](http://algernon.roboticoverlords.org/) - Web/application server that supports Lua, live-reload, templates, Sass and HTTP/2.
-* [Apache](http://httpd.apache.org/) - A robust, commercial-grade, featureful implementation of an HTTP (Web) server.
+* [Apache](https://httpd.apache.org/) - A robust, commercial-grade, featureful implementation of an HTTP (Web) server.
 * [Caddy](https://caddyserver.com/) - Lightweight, general-purpose web server supporting HTTP/2, automatic TLS and easy configuration. Written in Go.
 * [Cherokee](http://cherokee-project.com/) - Lightweight, high-performance web server/reverse proxy.
 * [Hiawatha](https://www.hiawatha-webserver.org/) - Prioritises security, simplicity and performance.
 * [Lighttpd](http://www.lighttpd.net/) - Web server more optimized for speed-critical environments.
-* [Nginx](http://nginx.org/) - Reverse proxy, load balancer, HTTP cache, and web server.
+* [Nginx](https://nginx.org/) - Reverse proxy, load balancer, HTTP cache, and web server.
 * [uWSGI](https://github.com/unbit/uwsgi/) - The uWSGI project aims at developing a full stack for building hosting services.
 
-*Web Performance.*
+### Web performance
 
 * [HAProxy](http://www.haproxy.org/) - Software based load Balancing, SSL offloading and performance optimization, compression, and general web routing.
 * [Varnish](https://www.varnish-cache.org/) - HTTP based web application accelerator focusing on optimizing caching and compression.
