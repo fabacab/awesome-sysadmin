@@ -46,7 +46,10 @@ Many IT professionals enable racist state violence, wittingly or unwittingly, by
 * [Mail Clients](#mail-clients)
 * Mail servers/webmail: [see awesome-selfhosted#email](https://github.com/kickball/awesome-selfhosted#email)
 * [Monitoring](#monitoring)
-* [Metric & Metric Collection](#metric--metric-collection)
+* [Metric collection and telemetry](#metric-collection-and-telemetry)
+    * [Data dashboards](#data-dashboards)
+    * [Metric collectors](#metric-collectors)
+    * [Telemetry storage](#telemetry-storage)
 * [Network Configuration Management](#network-configuration-management)
 * [Newsletter](#newsletters)
 * [NoSQL](#nosql)
@@ -158,7 +161,6 @@ Many IT professionals enable racist state violence, wittingly or unwittingly, by
 ## Cloud Computing
 
 * [AppScale](https://github.com/AppScale/appscale) - Cloud software with Google App Engine compatibility.
-* [Archipel](http://archipelproject.org/) - Manage and supervise virtual machines using Libvirt.
 * [CloudStack](http://cloudstack.apache.org/) - Cloud computing software for creating, managing, and deploying infrastructure cloud services.
 * [Cobbler](http://cobbler.github.io/) - Cobbler is a Linux installation server that allows for rapid setup of network installation environments.
 * [Eucalyptus](https://www.eucalyptus.cloud/) - Private cloud software with AWS compatibility.
@@ -275,7 +277,6 @@ See [awesome-selfhosted#project-management](https://github.com/awesome-selfhoste
 * [Lustre](http://lustre.org/) - Parallel distributed file system, generally used for large-scale cluster computing.
 * [Minio](https://minio.io/) - Minio is an open source object storage server compatible with Amazon S3 APIs. ([Source Code](https://github.com/minio/minio)) `Apache-2.0` `Go`
 * [MooseFS](http://www.moosefs.org/) - Fault tolerant, network distributed file system.
-* [MogileFS](http://mogilefs.org/) - Application level, network distributed file system.
 * [OpenAFS](http://www.openafs.org/) - Distributed network file system with read-only replicas and multi-OS support.
 * [Ori Filesystem](http://ori.scs.stanford.edu/) - Secure distributed file system built for offline operation.
 * [Perkeep](https://perkeep.org/) - Set of open source formats, protocols, and software for modeling, storing, searching, sharing and synchronizing data, formerly known as Camlistore.
@@ -449,45 +450,47 @@ See [awesome-selfhosted#project-management](https://github.com/awesome-selfhoste
 ### Status Pages
 
 * [Cachet](https://cachethq.io) - Status page system written in PHP.
+* [Netcheck](https://github.com/memphisx/netcheck-api) – Tool to let you monitor the availability and performance of services, inspired by Pingdom and StatusCake. ([Demo](https://demo.ncheck.eu/))
 * [Stashboard](http://www.stashboard.org) - Status page for cloud services and APIs.
 * [Statusfy](https://statusfy.co/) - A modern status page for presenting critical service updates.
 * [System Status Dashboard (SSD)](http://www.system-status-dashboard.com/) - Overview about an organization's infrastructure health status.
 * [Staytus](http://staytus.co/) - Staytus is a complete solution for publishing the latest information about any issues with your web applications, networks or services.
 * [vigil](https://github.com/valeriansaliou/vigil) -  Microservices Status Page. Monitors a distributed infrastructure and sends alerts to Slack. Written in Rust.
 * [Statping](https://github.com/hunterlong/statping) - Status page system written in Go.
-* [netcheck](https://demo.ncheck.eu/#/info) – Simple ping status system written in Java, similar to Pingdom and StatusCake.
 
-### Metric & Metric Collection
+## Metric collection and telemetry
 
-*Metric gathering and display software.*
+*Application performance metric and network telemetry gathering and display software.*
 
-* Collectors only
-  * [Diamond](https://github.com/python-diamond/Diamond) - Python based statistic collection daemon.
-  * [Collectd](http://collectd.org/) - System statistic collection daemon.
-  * [Collectl](http://collectl.sourceforge.net/) - High precision system performance metrics collecting tool.
-  * [PGObserver](https://github.com/zalando/PGObserver) - Monitoring solution for PostgreSQL databases that also works with AWS RDS.
-  * [Statsd](https://github.com/etsy/statsd/) - Application statistic listener.
-  * [tcollector](http://opentsdb.net/docs/build/html/user_guide/utilities/tcollector.html) - System statistic collection daemon written in Python for OpenTSDB.
-  * [Telegraf](https://github.com/influxdata/telegraf) - The plugin-driven server agent for collecting & reporting metrics.
+* [Prometheus](http://prometheus.io/) - Service monitoring system and time series database.
+* [Packetbeat](https://www.elastic.co/products/beats) - Captures network traffic and displays it in a custom Kibana dashboard for easy viewing.
+* [Graphite](http://graphite.readthedocs.org/en/latest/) - Scalable graphing server.
 
-* Dashboards
-  * [Grafana](http://grafana.org/) - Graphite and InfluxDB Dashboard and Graph Editor.
-  * [Ganglia](http://ganglia.sourceforge.net/) - High performance, scalable RRD based monitoring for grids and/or clusters of servers. Compatible with Graphite using a single collection process.
-  * [RRDtool](http://oss.oetiker.ch/rrdtool/) - Industry standard, high performance data logging and graphing system for time series data.
-  * [Dashing](http://dashing.io/) - Ruby gem that allows for rapid statistical dashboard development. An all HTML5 approach allows for big screen displays in data centers or conference rooms.
-  * [Facette](http://facette.io) - Time series data visualization and graphing software written in Go.
-  * [Freeboard](https://github.com/Freeboard/freeboard) - A damn-sexy front-end real-time dashboard for the internet of things. Transforms raw JSON into delicious UI.
-  * [Netdata](https://www.netdata.cloud/) - Real-time performance monitoring for Linux systems with plugin support.
+### Data dashboards
 
-* Storage
-  * [OpenTSDB](http://opentsdb.net/) - Store and server massive amounts of time series data without losing granularity.
-  * [KairosDB](https://github.com/kairosdb/kairosdb) - Fast distributed scalable time series database, fork of OpenTSDB 1.x.
-  * [InfluxDB](https://influxdb.com/) - Distributed time series database with no external dependencies.
+* [Grafana](http://grafana.org/) - Graphite and InfluxDB Dashboard and Graph Editor.
+* [Ganglia](http://ganglia.sourceforge.net/) - High performance, scalable RRD based monitoring for grids and/or clusters of servers. Compatible with Graphite using a single collection process.
+* [RRDtool](http://oss.oetiker.ch/rrdtool/) - Industry standard, high performance data logging and graphing system for time series data.
+* [Dashing](http://dashing.io/) - Ruby gem that allows for rapid statistical dashboard development. An all HTML5 approach allows for big screen displays in data centers or conference rooms.
+* [Facette](http://facette.io) - Time series data visualization and graphing software written in Go.
+* [Freeboard](https://github.com/Freeboard/freeboard) - A damn-sexy front-end real-time dashboard for the internet of things. Transforms raw JSON into delicious UI.
+* [Netdata](https://www.netdata.cloud/) - Real-time performance monitoring for Linux systems with plugin support.
 
-* Packages
-  * [Prometheus](http://prometheus.io/) - Service monitoring system and time series database.
-  * [Packetbeat](https://www.elastic.co/products/beats) - Captures network traffic and displays it in a custom Kibana dashboard for easy viewing.
-  * [Graphite](http://graphite.readthedocs.org/en/latest/) - Scalable graphing server.
+### Metric collectors
+
+* [Diamond](https://github.com/python-diamond/Diamond) - Python based statistic collection daemon.
+* [Collectd](http://collectd.org/) - System statistic collection daemon.
+* [Collectl](http://collectl.sourceforge.net/) - High precision system performance metrics collecting tool.
+* [PGObserver](https://github.com/zalando/PGObserver) - Monitoring solution for PostgreSQL databases that also works with AWS RDS.
+* [Statsd](https://github.com/etsy/statsd/) - Application statistic listener.
+* [tcollector](http://opentsdb.net/docs/build/html/user_guide/utilities/tcollector.html) - System statistic collection daemon written in Python for OpenTSDB.
+* [Telegraf](https://github.com/influxdata/telegraf) - The plugin-driven server agent for collecting & reporting metrics.
+
+### Telemetry storage
+
+* [OpenTSDB](http://opentsdb.net/) - Store and server massive amounts of time series data without losing granularity.
+* [KairosDB](https://github.com/kairosdb/kairosdb) - Fast distributed scalable time series database, fork of OpenTSDB 1.x.
+* [InfluxDB](https://influxdb.com/) - Distributed time series database with no external dependencies.
 
 ## Network Configuration Management
 
@@ -716,7 +719,7 @@ See also [§ Cloud orchestration](#cloud-orchestration).
   * [/r/Linux](https://www.reddit.com/r/linux) - News and information about Linux.
   * [/r/LinuxQuestions](https://www.reddit.com/r/linuxquestions)
   * [/r/SysAdmin](https://www.reddit.com/r/sysadmin/)
-* [Spiceworks Community](https://community.spiceworks.com/start) – General enterprise IT news and small articles.
+* [Spiceworks Community](https://community.spiceworks.com/) – General enterprise IT news and small articles.
 * [StackExchange Network](https://stackexchange.com/sites#technology) – Q&A communities.
   * [Server Fault](https://serverfault.com/) – StackExchange community for system and network administrators.
 
