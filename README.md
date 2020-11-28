@@ -18,11 +18,12 @@ Many IT professionals enable racist state violence, wittingly or unwittingly, by
 
 ## Contents
 
+* [Asset management](#asset-management)
+    * [Client management](#client-management)
 * [Backups](#backups)
 * [Build and software organization tools](#build-and-software-organization-tools)
     * [Build automation](#build-automation)
 * [ChatOps](#chatops)
-* [Client Management](#client-management)
 * [Cloning](#cloning)
 * [Cloud Computing](#cloud-computing)
 * [Cloud Orchestration](#cloud-orchestration)
@@ -31,7 +32,7 @@ Many IT professionals enable racist state violence, wittingly or unwittingly, by
 * Collaborative Software: [see awesome-selfhosted#groupware](https://github.com/awesome-selfhosted/awesome-selfhosted#groupware)
 * [Configuration Management Database](#configuration-management-database)
 * [Configuration Management (CM)](#configuration-management-cm)
-* [Continuous Integration and Continuous Deployment](#continuous-integration-and-continuous-deployment)
+* [Continuous Integration and Continuous Deployment (CI/CD)](#continuous-integration-and-continuous-deployment-cicd)
 * [Deployment Automation](#deployment-automation)
 * [Diagramming](#diagramming)
 * [Distributed Filesystems](#distributed-filesystems)
@@ -41,7 +42,6 @@ Many IT professionals enable racist state violence, wittingly or unwittingly, by
     * [Domain management](#domain-management)
 * [Editors](#editors)
 * [Identity Management](#identity-management)
-* [IT Asset Management](#it-asset-management)
 * [Log Management](#log-management)
 * [Mail Clients](#mail-clients)
 * Mail servers/webmail: [see awesome-selfhosted#email](https://github.com/kickball/awesome-selfhosted#email)
@@ -86,6 +86,24 @@ Many IT professionals enable racist state violence, wittingly or unwittingly, by
 * [Websites](#websites)
 * [Wikis](#wikis)
 
+## Asset management
+
+* [GLPI](https://www.glpi-project.org/) - Information Resource-Manager with an additional Administration Interface.
+* [OCS Inventory NG](https://ocsinventory-ng.org/?lang=en) - Enables users to inventory their IT assets.
+* [Open PC Server Integration (OPSI)](http://www.opsi.org) - Hardware and software inventory, deployment, and patching for Linux and Windows.
+* [RackTables](http://racktables.org/) - Datacenter and server room asset management like document hardware assets, network addresses, space in racks, networks configuration.
+* [Ralph](https://github.com/allegro/ralph) - Asset management, DCIM and CMDB system for large Data Centers as well as smaller LAN networks.
+* [Snipe IT](https://snipeitapp.com/) - Asset & license management software.
+
+### Client management
+
+*Managing software on desktop computers.*
+
+* [Chocolatey](https://chocolatey.org/) – Windows CLI package manager written in .NET/PS, based on [NuGet](https://www.nuget.org/).
+* [just-install](https://just-install.github.io/) – Python script for downloading and silently installing MSI files.
+* [OCS Inventory NG](https://ocsinventory-ng.org/) - Inventory, deployment and network scan.
+* [WAPT](https://dev.tranquil.it/wiki/WAPT_-_apt-get_pour_Windows/en) - Network-wide (un)installation, configuration and upgrades of Windows based software.
+* [WPKG](http://wpkg.org/) - Software deployment, upgrade and removal program for Windows.
 
 ## Backups
 
@@ -140,17 +158,6 @@ Many IT professionals enable racist state violence, wittingly or unwittingly, by
 * [Lita](https://www.lita.io/) - Robot companion for your company's chat room.
 * [Abot](https://github.com/itsabot/abot) - Digital assistant framework in Go.
 
-## Client management
-
-*Managing software on desktop computers.*
-
-* [Chocolatey](https://chocolatey.org/) – Windows CLI package manager written in .NET/PS, based on [NuGet](https://www.nuget.org/).
-* [just-install](https://just-install.github.io/) – Python script for downloading and silently installing MSI files.
-* [OCS Inventory NG](https://ocsinventory-ng.org/?lang=en) - Inventory, deployment and network scan.
-* [Opsi](http://www.opsi.org) (open PC server integration) - Client Management for Windows based on Debian.
-* [WAPT](https://dev.tranquil.it/wiki/WAPT_-_apt-get_pour_Windows/en) - Network-wide (un)installation, configuration and upgrades of Windows based software.
-* [WPKG](http://wpkg.org/) - Software deployment, upgrade and removal program for Windows.
-
 ## Cloning
 
 *Cloning software.*
@@ -174,6 +181,8 @@ Many IT professionals enable racist state violence, wittingly or unwittingly, by
 
 ## Cloud Orchestration
 
+See also [§ Configuration Management](#configuration-management).
+
 * [BOSH](http://bosh.io/docs/) - IaaS orchestration platform originally written for deploying and managing Cloud Foundry PaaS, but also useful for general purpose distributed systems.
 * [Cloud Foundry](https://www.cloudfoundry.org/) - Platform-as-a-Service suite to provide the orchestration services that make distributed apps a powerhouse of awesomeness.
 * [Cloudify](http://getcloudify.org/) - TOSCA-based cloud orchestration software platform written in Python and YAML.
@@ -183,8 +192,7 @@ Many IT professionals enable racist state violence, wittingly or unwittingly, by
 * [Kubernetes](http://kubernetes.io/) - Orchestration system for Docker containers. ([Source Code](https://github.com/kubernetes/kubernetes), [Documentation](http://kubernetes.io/docs/)) `Apache` `Go`
 * [Overcast](http://andrewchilds.github.io/overcast/) - Deploy VMs across different cloud providers, and run commands and scripts across any or all of them in parallel via SSH.
 * [Rundeck](http://rundeck.org/) - Simple orchestration tool.
-* [Salt](http://saltstack.com/) - Fast, scalable and flexible systems management software written in Python/ZeroMQ.
-* [Spruce](https://github.com/geofffranks/spruce) - Tool that merges separate YAML files into one.  Works well with [Genesis](https://github.com/starkandwayne/genesis).
+* [Spruce](https://github.com/geofffranks/spruce) - Tool that merges separate YAML files into one.
 * [StackStorm](https://stackstorm.com/) - Event Driven Operations and ChatOps platform for infrastructure management. Written in Python.
 * [Terraform](https://www.terraform.io/) - Terraform works with many cloud providers and creates infrastructure from code.
 
@@ -202,9 +210,10 @@ Many IT professionals enable racist state violence, wittingly or unwittingly, by
 
 *Configuration management database (CMDB) software.*
 
+See also [§ Asset management](#asset-management).
+
 * [i-doit](http://www.i-doit.org/) - IT Documentation and CMDB.
 * [iTop](http://www.combodo.com/itop-193) - Complete ITIL web based service management tool.
-* [Ralph](https://github.com/allegro/ralph) - Asset management, DCIM and CMDB system for large Data Centers as well as smaller LAN networks.
 * [Clusto](https://github.com/clusto/clusto) - Helps you keep track of your inventory, where it is, how it's connected, and provides an abstracted interface for interacting with the elements of the infrastructure.
 * [Collins](http://tumblr.github.io/collins/) - At Tumblr, it's the infrastructure source of truth and knowledge.
 * [netbox](https://github.com/digitalocean/netbox) - IP address management (IPAM) and data center infrastructure management (DCIM) tool.
@@ -222,7 +231,7 @@ See also [wmariuss/awesome-devops § Automation & Orchestration](https://github.
 * [Puppet](https://puppet.com/) - It's written in Ruby and uses Puppet's declarative language or a Ruby DSL.
 * [Salt](http://saltstack.com/) - It's written in Python.
 
-## Continuous Integration and Continuous Deployment
+## Continuous Integration and Continuous Deployment (CI/CD)
 
 * [Buildbot](http://buildbot.net/) - Python-based toolkit for continuous integration. ([Source Code](https://github.com/buildbot/buildbot)) `GPL-2.0` `Python`
 * [CapsuleCD](https://analogj.github.io/capsulecd-slides/) - CD script for automating package/library releases (npm, cookbooks, gems, pip, jars, etc). ([Source Code](https://github.com/AnalogJ/capsulecd)) `MIT` `Go`
@@ -239,10 +248,6 @@ See also [wmariuss/awesome-devops § Automation & Orchestration](https://github.
 * [PHPCI](https://www.phptesting.org/) - Free and open source continuous integration specifically designed for PHP. ([Source Code](https://github.com/block8/phpci)) `BSD-2-Clause` `PHP`
 * [Strider](http://strider-cd.github.io/) - Open Source Continuous Deployment / Continuous Integration platform. ([Source Code](https://github.com/Strider-CD/strider)) `MIT` `Nodejs`
 * [werf](https://werf.io/) - Open Source CI/CD tool for building Docker images and deploying to Kubernetes via GitOps. ([Source Code](https://github.com/werf/werf)) `Apache-2.0` `Go`
-
-### Project management
-
-See [awesome-selfhosted#project-management](https://github.com/awesome-selfhosted/awesome-selfhosted#project-management).
 
 ## Deployment Automation
 
@@ -262,7 +267,7 @@ See [awesome-selfhosted#project-management](https://github.com/awesome-selfhoste
 
 * [DrawThe.Net](http://go.drawthe.net/) - Javascript tool that uses a YAML-formatted input to programmatically create large, complex, and visually solid diagrams.
 * [Mermaid](https://mermaid-js.github.io/mermaid-live-editor/) - Javascript module with a unique, easy, shorthand syntax. Integrates into several other tools like Grafana.
-* [Diagrams.net](https://app.diagrams.net/) - A.K.A. [Draw.io](https://app.diagrams.net/). Easy to use Diagram UI with a plethora of templates.
+* [Diagrams.net](https://app.diagrams.net/) - Easy to use Diagram UI with a plethora of templates, formerly known as Draw.io.
 
 ## Distributed Filesystems
 
@@ -364,22 +369,11 @@ See [awesome-selfhosted#project-management](https://github.com/awesome-selfhoste
 * [easy-rsa](https://github.com/OpenVPN/easy-rsa) - bash script to build and manage a PKI CA.
 * [Smallstep Certificates](https://smallstep.com/certificates/) - A private certificate authority (X.509 & SSH) and related tools for secure automated certificate management.
 
-## IT Asset Management
-
-*IT Assets Management software.*
-
-* [GLPI](https://www.glpi-project.org/) - Information Resource-Manager with an additional Administration Interface.
-* [OCS Inventory NG](https://ocsinventory-ng.org/?lang=en) - Enables users to inventory their IT assets.
-* [OPSI](http://www.opsi.org) - Hardware and software inventory, deployment, and patching for Linux and Windows.
-* [RackTables](http://racktables.org/) - Datacenter and server room asset management like document hardware assets, network addresses, space in racks, networks configuration.
-* [Ralph](https://github.com/allegro/ralph) - Asset management, DCIM and CMDB system for large Data Centers as well as smaller LAN networks.
-* [Snipe IT](https://snipeitapp.com/) - Asset & license management software.
-
 ## Log Management
 
 *Log management tools: collect, parse, visualize ...*
 
-* [Elasticsearch](https://www.elastic.co/) - Lucene based document store mainly used for log indexing, storage and analysis.
+* [ElasticSearch](https://www.elastic.co/) - Lucene based document store mainly used for log indexing, storage and analysis.
 * [Fluentd](http://www.fluentd.org/) - Log Collector and Shipper.
 * [Flume](https://flume.apache.org/) - Distributed log collection and aggregation system.
 * [GoAccess](http://goaccess.io/) - Real-time web log analyzer and interactive viewer that runs in a terminal or through the browser. ([Source Code](https://github.com/allinurl/goaccess)) `MIT` `C`
@@ -409,7 +403,7 @@ See [awesome-selfhosted#project-management](https://github.com/awesome-selfhoste
 * [Bosun](http://bosun.org/) - Monitoring and alerting system by Stack Exchange ([Source Code](https://github.com/bosun-monitor/bosun), [Documentation](http://bosun.org/quickstart.html)) `MIT` `Go`
 * [Cacti](http://www.cacti.net) - Web-based network monitoring and graphing tool.
 * [Cabot](http://cabotapp.com/) - Monitoring and alerts, similar to PagerDuty.
-* [cadvisor](https://github.com/google/cadvisor) - Analyzes resource usage and performance characteristics of running containers ([Source Code](https://github.com/google/cadvisor)) `Apache` `Go`
+* [cadvisor](https://github.com/google/cadvisor) - Analyzes resource usage and performance characteristics of running containers. `Apache` `Go`
 * [check_mk](http://mathias-kettner.com/check_mk.html) - Collection of extensions for Nagios.
 * [Dash](https://github.com/afaqurk/linux-dash) - Low-overhead monitoring web dashboard for a GNU/Linux machine.
 * [EdMon](https://github.com/Edraens/EdMon) - Command-line monitoring application helping you to check that your hosts and services are available, with notifications support. `MIT` `Java`
@@ -424,7 +418,6 @@ See [awesome-selfhosted#project-management](https://github.com/awesome-selfhoste
 * [Munin](http://munin-monitoring.org/) - Networked resource monitoring tool.
 * [Naemon](http://www.naemon.org/) - Network monitoring tool based on the Nagios 4 core with performance enhancements and new features.
 * [Nagios](https://www.nagios.org/) - Computer system, network and infrastructure monitoring software application.
-* [Netdata](https://www.netdata.cloud/) - Distributed, real-time, performance and health monitoring for systems and applications. Runs on Linux, FreeBSD, and MacOS.
 * [NetXMS](https://www.netxms.org/) - Open Source network and infrastructure monitoring and management. ([Source Code](https://github.com/netxms/netxms))
 * [Observium](http://www.observium.org/) - SNMP monitoring for servers and networking devices. Runs on linux.
 * [OMD](http://omdistro.org/) - The Open Monitoring Distribution.
@@ -499,7 +492,7 @@ See [awesome-selfhosted#project-management](https://github.com/awesome-selfhoste
 * [GestióIP](https://www.gestioip.net/) - Automated web based IPv4/IPv6 IP Address Management tool.
 * [GNS3](https://www.gns3.com/) - Graphical network simulator that provides a variety of virtual appliances - ([Source Code](https://github.com/GNS3/gns3-gui/), [Documentation](https://docs.gns3.com/)) - `GPLv3`
 * [Oxidized](https://github.com/ytti/oxidized) - Modern take on network device configuration monitoring with web interface and GIT storage.
-* [phpIPAM](http://phpipam.net/) - Open source IP address management with [PowerDNS](https://www.powerdns.com/) integration.
+* [phpIPAM](http://phpipam.net/) - Open source IP address management with PowerDNS integration.
 * [RANCID](http://www.shrubbery.net/rancid/) - Monitors network device's configuration and maintain history of changes.
 * [rConfig](http://www.rconfig.com/) - Another network device configuration management tool.
 * [trigger](https://github.com/trigger/trigger) - Robust network automation toolkit written in Python.
@@ -523,7 +516,6 @@ See [awesome-selfhosted#project-management](https://github.com/awesome-selfhoste
   * [Hypertable](http://hypertable.org/) - C++ based BigTable-like DBMS, communicates through Thrift and runs either as stand-alone or on distributed FS such as Hadoop.
 * Document Store
   * [CouchDB](http://couchdb.apache.org/) - Ease of use, with multi-master replication document-oriented database system.
-  * [ElasticSearch](https://www.elastic.co/) - Java based database, popular with log aggregation, and email archiving projects.
   * [MongoDB](https://www.mongodb.org/) - Another document-oriented database system.
   * [RavenDB](http://ravendb.net/) - Document based database with ACID/Transactional features.
   * [RethinkDB](http://www.rethinkdb.com/) - Distributed document store database, focuses on JSON.
