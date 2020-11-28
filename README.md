@@ -161,9 +161,8 @@ Many IT professionals enable racist state violence, wittingly or unwittingly, by
 * [Archipel](http://archipelproject.org/) - Manage and supervise virtual machines using Libvirt.
 * [CloudStack](http://cloudstack.apache.org/) - Cloud computing software for creating, managing, and deploying infrastructure cloud services.
 * [Cobbler](http://cobbler.github.io/) - Cobbler is a Linux installation server that allows for rapid setup of network installation environments.
-* [Cracow Cloud One - Polish Private Cloud](http://cc1.ifj.edu.pl/) - The CC1 system provides a complete solution for Private Cloud Computing.
 * [Eucalyptus](https://www.eucalyptus.cloud/) - Private cloud software with AWS compatibility.
-* [Flynn](https://flynn.io) - PaaS.
+* [Flynn](https://flynn.io) - Open source Platform-as-a-Service (PaaS) for running applications in production.
 * [Mesos](http://mesos.apache.org/) - Develop and run resource-efficient distributed systems.
 * [OpenNebula](http://opennebula.org/) - User-driven cloud management platform for sysadmins and devops.
 * [Openshift](http://www.openshift.org) - PaaS product from Red Hat.
@@ -180,7 +179,6 @@ Many IT professionals enable racist state violence, wittingly or unwittingly, by
 * [Genesis](https://github.com/starkandwayne/genesis) - Template framework for multi-environment BOSH deployments.
 * [Juju](https://jujucharms.com/) - Cloud orchestration tool which manages services as charms, YAML configuration and deployment script bundles.
 * [Kubernetes](http://kubernetes.io/) - Orchestration system for Docker containers. ([Source Code](https://github.com/kubernetes/kubernetes), [Documentation](http://kubernetes.io/docs/)) `Apache` `Go`
-* [MCollective](https://puppet.com/mcollective) - Ruby framework to manage server orchestration, developed by Puppet labs.
 * [Overcast](http://andrewchilds.github.io/overcast/) - Deploy VMs across different cloud providers, and run commands and scripts across any or all of them in parallel via SSH.
 * [Rundeck](http://rundeck.org/) - Simple orchestration tool.
 * [Salt](http://saltstack.com/) - Fast, scalable and flexible systems management software written in Python/ZeroMQ.
@@ -219,7 +217,6 @@ See also [wmariuss/awesome-devops § Automation & Orchestration](https://github.
 * [Bolt](https://puppet.com/products/bolt) - Open source task orchestration tool useful for automating the manual work it takes to maintain IT infrastructure.
 * [CFEngine](https://cfengine.com/) - Lightweight agent system. Configuration state is specified via a declarative language.
 * [Chef](https://www.chef.io/chef/) - It's written in Ruby and Erlang and uses a pure-Ruby DSL.
-* [Pallet](http://palletops.com/) - Infrastructure definition, configuration and management via a Clojure DSL.
 * [Puppet](https://puppet.com/) - It's written in Ruby and uses Puppet's declarative language or a Ruby DSL.
 * [Salt](http://saltstack.com/) - It's written in Python.
 
@@ -602,8 +599,7 @@ See [awesome-selfhosted/awesome-selfhosted § Project management](https://github
 
 *Troubleshooting Tools.*
 
-* [genet](https://github.com/genet-app/genet) - Caffeinated Packet Analyzer.
-* [grml](https://grml.org) – bootable Debian Live CD with powerful CLI tools.
+* [grml](https://grml.org) – Bootable Debian Live CD with powerful CLI tools.
 * [mitmproxy](http://mitmproxy.org/) - Python tool used for intercepting, viewing and modifying network traffic. Invaluable in troubleshooting certain problems.
 * [mtr](https://www.bitwizard.nl/mtr/) - Network utility that combines traceroute and ping.
 * [perf-tools](https://github.com/brendangregg/perf-tools) - Performance analysis tools based on Linux perf_events (aka perf) and ftrace.
