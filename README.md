@@ -93,14 +93,14 @@ Many IT professionals enable racist state violence, wittingly or unwittingly, by
 * [Open PC Server Integration (OPSI)](http://www.opsi.org) - Hardware and software inventory, deployment, and patching for Linux and Windows.
 * [RackTables](http://racktables.org/) - Datacenter and server room asset management like document hardware assets, network addresses, space in racks, networks configuration.
 * [Ralph](https://github.com/allegro/ralph) - Asset management, DCIM and CMDB system for large Data Centers as well as smaller LAN networks.
-* [Snipe IT](https://snipeitapp.com/) - Asset & license management software.
+* [Snipe IT](https://snipeitapp.com/) - Asset and license management software.
 
 ### Client management
 
 *Managing software on desktop computers.*
 
-* [Chocolatey](https://chocolatey.org/) – Windows CLI package manager written in .NET/PS, based on [NuGet](https://www.nuget.org/).
-* [just-install](https://just-install.github.io/) – Python script for downloading and silently installing MSI files.
+* [Chocolatey](https://chocolatey.org/) - Windows CLI package manager written in .NET/PS, based on [NuGet](https://www.nuget.org/).
+* [just-install](https://just-install.github.io/) - Python script for downloading and silently installing MSI files.
 * [OCS Inventory NG](https://ocsinventory-ng.org/) - Inventory, deployment and network scan.
 * [WAPT](https://dev.tranquil.it/wiki/WAPT_-_apt-get_pour_Windows/en) - Network-wide (un)installation, configuration and upgrades of Windows based software.
 * [WPKG](http://wpkg.org/) - Software deployment, upgrade and removal program for Windows.
@@ -110,7 +110,7 @@ Many IT professionals enable racist state violence, wittingly or unwittingly, by
 *Backup software.* Also see [Restic's list of Linux backup software](https://github.com/restic/others).
 
 * [Amanda](http://www.amanda.org/) - Client-server model backup tool.
-* [Bareos](http://www.bareos.org/en/) - A fork of Bacula backup tool.
+* [Bareos](http://www.bareos.org/en/) - Fork of Bacula backup tool.
 * [BackupPC](https://backuppc.github.io/backuppc/) - BackupPC is a high-performance system for backing up to disk.
 * [Backupninja](https://0xacab.org/riseuplabs/backupninja) - Lightweight, extensible meta-backup system.
 * [Barman](http://www.pgbarman.org) - Backup and Recovery Manager for disaster recovery of PostgreSQL servers.
@@ -125,7 +125,7 @@ Many IT professionals enable racist state violence, wittingly or unwittingly, by
 * [Restic](https://restic.net/) - Secure, remote backup tool. Designed to be easy, fast, verifiable and efficient.
 * [Rsnapshot](http://rsnapshot.org/) - Filesystem Snapshotting Utility.
 * [Shield](https://github.com/starkandwayne/shield) - Pluggable architecture for backup and restore of database systems.
-* [Snebu](http://www.snebu.com/) – Snapshot backup with global multi-client deduplication and transparent compression.
+* [Snebu](http://www.snebu.com/) - Snapshot backup with global multi-client deduplication and transparent compression.
 * [UrBackup](http://www.urbackup.org/) - Another client-server backup system.
 * [DREBS](https://github.com/dojo4/drebs) - AWS EBS backup script that supports strategies.
 * [ZBackup](http://zbackup.org/) - Versatile deduplicating backup tool.
@@ -142,7 +142,7 @@ Many IT professionals enable racist state violence, wittingly or unwittingly, by
 * [Apache Ant](https://ant.apache.org/) - Automation build tool, similar to make, written in Java.
 * [Apache Maven](http://maven.apache.org/) - Build automation tool mainly for Java.
 * [Bazel](http://www.bazel.io/) - Google's build system.
-* [GNU Make](http://www.gnu.org/software/make/) - The most popular automation build tool for many purposes.
+* [GNU Make](http://www.gnu.org/software/make/) - Most popular automation build tool for many purposes.
 * [Gradle](http://gradle.org/) - Build automation system popular for mobile (smartphone) apps and useful for teams.
 * [Rake](https://github.com/ruby/rake) - Build automation tool similar to Make, written in and extensible in Ruby.
 
@@ -150,9 +150,9 @@ Many IT professionals enable racist state violence, wittingly or unwittingly, by
 
 *Conversation-driven development and management. See https://www.reddit.com/r/chatops for more information.*
 
-* [CloudBot](https://github.com/CloudBotIRC/CloudBot) - The simple, fast, expandable Python IRC bot.
-* [Eggdrop](http://www.eggheads.org/) - the world's most popular IRC bot, designed for flexibility and ease of use, and is freely distributable under the GNU GPL.
-* [Err](http://errbot.io/) - a plugin based chatbot designed to be easily deployable, extensible and maintainable.
+* [CloudBot](https://github.com/CloudBotIRC/CloudBot) - Simple, fast, expandable Python IRC bot.
+* [Eggdrop](http://www.eggheads.org/) - World's most popular IRC bot, designed for flexibility and ease of use, and is freely distributable under the GNU GPL.
+* [Err](http://errbot.io/) - Plugin based chatbot designed to be easily deployable, extensible and maintainable.
 * [Hubot](https://hubot.github.com/) - Customizable, life embetterment robot.
 * [Lazlo](https://github.com/djosephsen/lazlo) - Chatops automation framework in Go.
 * [Lita](https://www.lita.io/) - Robot companion for your company's chat room.
@@ -235,7 +235,7 @@ See also [wmariuss/awesome-devops § Automation & Orchestration](https://github.
 
 * [Buildbot](http://buildbot.net/) - Python-based toolkit for continuous integration. ([Source Code](https://github.com/buildbot/buildbot)) `GPL-2.0` `Python`
 * [CapsuleCD](https://analogj.github.io/capsulecd-slides/) - CD script for automating package/library releases (npm, cookbooks, gems, pip, jars, etc). ([Source Code](https://github.com/AnalogJ/capsulecd)) `MIT` `Go`
-* [CDS](https://ovh.github.io/cds/) - Enterprise-Grade Continuous Delivery & DevOps Automation Open Source Platform  ([Source Code](https://github.com/ovh/cds)) `BSD-3-Clause` `Go`
+* [CDS](https://ovh.github.io/cds/) - Enterprise-grade continuous delivery and DevOps automation open source platform. ([Source Code](https://github.com/ovh/cds)) `BSD-3-Clause` `Go`
 * [Concourse](https://concourse-ci.org/) - Concourse is a CI tool that treats pipelines as first class objects and containerizes every step along the way. ([Demo](https://ci.concourse-ci.org/), [Source Code](https://github.com/concourse/concourse)) `Apache-2.0` `Go`
 * [drone](https://drone.io/) - Drone is a Continuous Delivery platform built on Docker, written in Go. ([Source Code](https://github.com/drone/drone)) `Apache-2.0` `Go`
 * [Factor](http://www.factor.io/) - Programmatically define and run workflows to connect configuration management, source code management, build, continuous integration, continuous deployment and communication tools. ([Source Code](https://github.com/factor-io/factor)) `MIT` `Ruby`
@@ -258,7 +258,7 @@ See also [wmariuss/awesome-devops § Automation & Orchestration](https://github.
 * [Mina](http://nadarei.co/mina/) - Really fast deployer and server automation tool (rake based).
 * [munki](https://www.munki.org/munki/) - Webserver-based repository of packages and package metadata, that allows macOS administrators to manage software installs.
 * [Rocketeer](http://rocketeer.autopergamene.eu/) - PHP task runner and deployment tool.
-* [sup](https://github.com/pressly/sup/) - Super simple deployment tool - just Unix - think of it like 'make' for a network of servers.
+* [sup](https://github.com/pressly/sup/) - Super simple deployment tool—just Unix—think of it like 'make' for a network of servers.
 * [Vlad the Deployer](https://github.com/seattlerb/vlad) - Deployment automation (rake based).
 
 ## Diagramming
@@ -287,7 +287,7 @@ See also [wmariuss/awesome-devops § Automation & Orchestration](https://github.
 * [Perkeep](https://perkeep.org/) - Set of open source formats, protocols, and software for modeling, storing, searching, sharing and synchronizing data, formerly known as Camlistore.
 * [Swift](http://docs.openstack.org/developer/swift/) - Highly available, distributed, eventually consistent object/blob store.
 * [SheepDog](https://sheepdog.github.io/sheepdog/) - Distributed Blockdevice, Rest, QEMU and distributed Filesystem storage.
-* [TahoeLAFS](https://tahoe-lafs.org/trac/tahoe-lafs) - secure, decentralized, fault-tolerant, peer-to-peer distributed data store and distributed file system.
+* [TahoeLAFS](https://tahoe-lafs.org/trac/tahoe-lafs) - Secure, decentralized, fault-tolerant, peer-to-peer distributed data store and distributed file system.
 * [XtreemFS](http://www.xtreemfs.org/) - XtreemFS is a fault-tolerant distributed file system for all storage needs.
 
 ## Domain Name System (DNS)
@@ -295,14 +295,14 @@ See also [wmariuss/awesome-devops § Automation & Orchestration](https://github.
 ### DNS control panels
 
 * [Atomia DNS](http://atomiadns.com/) - DNS management system.
-* [nsedit](https://github.com/tuxis-ie/nsedit) - nsedit is a DNS editor for PowerDNS, working with PowerDNS's new API.
+* [nsedit](https://github.com/tuxis-ie/nsedit) - DNS editor for PowerDNS, working with PowerDNS's new API.
 * [PDNS Gui](https://github.com/odoucet/pdns-gui) - WebGUI which aids in administering domains and records for PowerDNS with MySQL.
 * [Pi-hole](https://pi-hole.net/) - Blackhole for Internet advertisements with a GUI for managing and monitoring.
 * [Poweradmin](https://www.poweradmin.org/) - Friendly Web-based DNS administration tool for PowerDNS server.
 
 ### DNS servers
 
-* [Bind](https://www.isc.org/downloads/bind/) - The most widely used name server software.
+* [Bind](https://www.isc.org/downloads/bind/) - Most widely used name server software.
 * [CoreDNS](https://coredns.io/) - Flexible DNS server written on Go.
 * [djbdns](http://cr.yp.to/djbdns.html) - Collection of DNS applications, including tinydns.
 * [Designate](https://wiki.openstack.org/wiki/Designate) - DNS REST API that support several DNS servers as its backend.
@@ -332,7 +332,7 @@ See also [wmariuss/awesome-devops § Automation & Orchestration](https://github.
 * [ICEcoder](https://icecoder.net/) - Code editor awesomeness, built with common web languages.
 * [jotgit](https://github.com/jdleesmiller/jotgit) - Git-backed real-time collaborative code editing.
 * [KDevelop](https://www.kdevelop.org/) - IDE by the people behind KDE.
-* [Light Table](http://lighttable.com/) - The next generation code editor.
+* [Light Table](http://lighttable.com/) - Next generation code editor.
 * [Lime](http://limetext.org/) - Aims to provide an open source solution to Sublime Text.
 * [Micro](https://micro-editor.github.io/) - Modern and intuitive terminal-based text editor.
 * [Notepad++](https://notepad-plus-plus.org/) - GPLv2 multi-language editor with syntax highlighting for Windows.
@@ -363,11 +363,11 @@ See also [wmariuss/awesome-devops § Automation & Orchestration](https://github.
 * [LDAP Account Manager (LAM)](https://www.ldap-account-manager.org/lamcms/) - Web frontend for managing entries (e.g. users, groups, DHCP settings) stored in an LDAP directory.
 * [OpenID Connect](http://openid.net/developers/libraries/) - Simple Identity layer on top of OAuth 2.0.
 * [OSIAM](http://osiam.github.io/) - Secure identity management solution providing REST based services for authentication and authorization.
-* [Pomerium](https://www.pomerium.io/) - An identity and context aware access-proxy inspired by BeyondCorp.
-* [Samba](https://www.samba.org/) – Active Directory and CIFS protocol implementation.
-* [BounCA](https://bounca.org/) - A personal SSL Key / Certificate Authority web-based tool for creating self-signed certificates.
-* [easy-rsa](https://github.com/OpenVPN/easy-rsa) - bash script to build and manage a PKI CA.
-* [Smallstep Certificates](https://smallstep.com/certificates/) - A private certificate authority (X.509 & SSH) and related tools for secure automated certificate management.
+* [Pomerium](https://www.pomerium.io/) - Identity and context aware access-proxy inspired by BeyondCorp.
+* [Samba](https://www.samba.org/) - Active Directory and CIFS protocol implementation.
+* [BounCA](https://bounca.org/) - Personal SSL Key / Certificate Authority web-based tool for creating self-signed certificates.
+* [easy-rsa](https://github.com/OpenVPN/easy-rsa) - Bash script to build and manage a PKI CA.
+* [Smallstep Certificates](https://smallstep.com/certificates/) - Private certificate authority (X.509 and SSH) and related tools for secure automated certificate management.
 
 ## Log Management
 
@@ -386,10 +386,10 @@ See also [wmariuss/awesome-devops § Automation & Orchestration](https://github.
 ## Mail Clients
 
 * [Claws Mail](http://www.claws-mail.org/) - Old school email client (and news reader), based on GTK+.
-* [ImapSync](http://imapsync.lamiral.info/) – Simple IMAP migration tool for copying mailboxes to other servers.
+* [ImapSync](http://imapsync.lamiral.info/) - Simple IMAP migration tool for copying mailboxes to other servers.
 * [Mutt](http://www.mutt.org/) - Small but very powerful text-based mail client.
 * [Nylas Mail](https://www.nylas.com/nylas-mail/) - Extensible mail client.
-* [Sylpheed](http://sylpheed.sraoss.jp/en/) – Still developed predecessor to Claws Mail, lightweight mail client.
+* [Sylpheed](http://sylpheed.sraoss.jp/en/) - Still developed predecessor to Claws Mail, lightweight mail client.
 * [Thunderbird](https://www.mozilla.org/de/thunderbird/) - Free email application that's easy to set up and customize.
 
 ## Monitoring
@@ -409,7 +409,7 @@ See also [wmariuss/awesome-devops § Automation & Orchestration](https://github.
 * [EdMon](https://github.com/Edraens/EdMon) - Command-line monitoring application helping you to check that your hosts and services are available, with notifications support. `MIT` `Java`
 * [ElastiFlow](https://github.com/robcowart/elastiflow) - Network flow Monitoring (Netflow, sFlow and IPFIX) with the Elastic Stack.
 * [eZ Server Monitor](http://www.ezservermonitor.com) - Lightweight and simple dashboard monitor for Linux, available in Web and Bash application.
-* [Flapjack](http://flapjack.io/) - Monitoring notification routing & event processing system.
+* [Flapjack](http://flapjack.io/) - Monitoring notification routing and event processing system.
 * [Glances](https://nicolargo.github.io/glances/) - Cross-platform system monitoring tool written in Python.
 * [Healthchecks](https://healthchecks.io/) - Monitoring for cron jobs, background services and scheduled tasks.
 * [Icinga](https://www.icinga.org/) - Nagios fork that has since lapped nagios several times. Comes with the possibility of clustered monitoring - ([Source Code](https://github.com/Icinga)) - `GPLv2`
@@ -420,7 +420,7 @@ See also [wmariuss/awesome-devops § Automation & Orchestration](https://github.
 * [Nagios](https://www.nagios.org/) - Computer system, network and infrastructure monitoring software application.
 * [NetXMS](https://www.netxms.org/) - Open Source network and infrastructure monitoring and management. ([Source Code](https://github.com/netxms/netxms))
 * [Observium](http://www.observium.org/) - SNMP monitoring for servers and networking devices. Runs on linux.
-* [OMD](http://omdistro.org/) - The Open Monitoring Distribution.
+* [OMD](http://omdistro.org/) - Open Monitoring Distribution.
 * [Performance Co-Pilot](http://pcp.io) - Lightweight, distributed system performance and analysis framework.
 * [PhpSysInfo](https://phpsysinfo.github.io/phpsysinfo/) - Customizable PHP script that displays information about your system nicely.
 * [PHP Server Monitor](https://www.phpservermonitor.org/) - Open source tool to monitor your servers and websites.
@@ -443,9 +443,9 @@ See also [wmariuss/awesome-devops § Automation & Orchestration](https://github.
 ### Status Pages
 
 * [Cachet](https://cachethq.io) - Status page system written in PHP.
-* [Netcheck](https://github.com/memphisx/netcheck-api) – Tool to let you monitor the availability and performance of services, inspired by Pingdom and StatusCake. ([Demo](https://demo.ncheck.eu/))
+* [Netcheck](https://github.com/memphisx/netcheck-api) - Tool to let you monitor the availability and performance of services, inspired by Pingdom and StatusCake. ([Demo](https://demo.ncheck.eu/))
 * [Stashboard](http://www.stashboard.org) - Status page for cloud services and APIs.
-* [Statusfy](https://statusfy.co/) - A modern status page for presenting critical service updates.
+* [Statusfy](https://statusfy.co/) - Modern status page for presenting critical service updates.
 * [System Status Dashboard (SSD)](http://www.system-status-dashboard.com/) - Overview about an organization's infrastructure health status.
 * [Staytus](http://staytus.co/) - Staytus is a complete solution for publishing the latest information about any issues with your web applications, networks or services.
 * [vigil](https://github.com/valeriansaliou/vigil) -  Microservices Status Page. Monitors a distributed infrastructure and sends alerts to Slack. Written in Rust.
@@ -466,7 +466,7 @@ See also [wmariuss/awesome-devops § Automation & Orchestration](https://github.
 * [RRDtool](http://oss.oetiker.ch/rrdtool/) - Industry standard, high performance data logging and graphing system for time series data.
 * [Dashing](http://dashing.io/) - Ruby gem that allows for rapid statistical dashboard development. An all HTML5 approach allows for big screen displays in data centers or conference rooms.
 * [Facette](http://facette.io) - Time series data visualization and graphing software written in Go.
-* [Freeboard](https://github.com/Freeboard/freeboard) - A damn-sexy front-end real-time dashboard for the internet of things. Transforms raw JSON into delicious UI.
+* [Freeboard](https://github.com/Freeboard/freeboard) - Damn-sexy front-end real-time dashboard for the internet of things. Transforms raw JSON into delicious UI.
 * [Netdata](https://www.netdata.cloud/) - Real-time performance monitoring for Linux systems with plugin support.
 
 ### Metric collectors
@@ -477,7 +477,7 @@ See also [wmariuss/awesome-devops § Automation & Orchestration](https://github.
 * [PGObserver](https://github.com/zalando/PGObserver) - Monitoring solution for PostgreSQL databases that also works with AWS RDS.
 * [Statsd](https://github.com/etsy/statsd/) - Application statistic listener.
 * [tcollector](http://opentsdb.net/docs/build/html/user_guide/utilities/tcollector.html) - System statistic collection daemon written in Python for OpenTSDB.
-* [Telegraf](https://github.com/influxdata/telegraf) - The plugin-driven server agent for collecting & reporting metrics.
+* [Telegraf](https://github.com/influxdata/telegraf) - Plugin-driven server agent for collecting and reporting metrics.
 
 ### Telemetry storage
 
@@ -575,7 +575,7 @@ See [awesome-selfhosted/awesome-selfhosted § Project management](https://github
 
 * [Consul](https://www.consul.io/) - Consul is a tool for service discovery, monitoring and configuration.
 * [Doozerd](https://github.com/ha/doozerd) - Doozer is a highly-available, completely consistent store for small amounts of extremely important data.
-* [etcd](https://github.com/coreos/etcd) - distributed K/V-Store, authenticating via SSL PKI and a REST HTTP Api for shared configuration and service discovery.
+* [etcd](https://github.com/coreos/etcd) - Distributed key-value store, authenticating via SSL PKI and a REST HTTP Api for shared configuration and service discovery.
 * [ZooKeeper](http://zookeeper.apache.org/) - ZooKeeper is a centralized service for maintaining configuration information, naming, providing distributed synchronization, and providing group services.
 
 ## Software Containers
@@ -587,19 +587,19 @@ See [awesome-selfhosted/awesome-selfhosted § Project management](https://github
   * [Docker Swarm](https://docs.docker.com/engine/swarm/) - Manage cluster of Docker Engines.
   * [Portainer](https://portainer.io/) - Simple management UI for Docker.
 * [LXC](https://linuxcontainers.org/lxc/) - Userspace interface for the Linux kernel containment features.
-  * [LXD](https://linuxcontainers.org/lxd/) – a container "hypervisor" and a better UX for LXC.
+  * [LXD](https://linuxcontainers.org/lxd/) - Container "hypervisor" and a better UX for LXC.
 * [OpenVZ](http://openvz.org) - Container-based virtualization for Linux.
 
 ## Troubleshooting
 
 *Troubleshooting Tools.*
 
-* [grml](https://grml.org) – Bootable Debian Live CD with powerful CLI tools.
+* [grml](https://grml.org) - Bootable Debian Live CD with powerful CLI tools.
 * [mitmproxy](http://mitmproxy.org/) - Python tool used for intercepting, viewing and modifying network traffic. Invaluable in troubleshooting certain problems.
 * [mtr](https://www.bitwizard.nl/mtr/) - Network utility that combines traceroute and ping.
-* [perf-tools](https://github.com/brendangregg/perf-tools) - Performance analysis tools based on Linux perf_events (aka perf) and ftrace.
+* [perf-tools](https://github.com/brendangregg/perf-tools) - Performance analysis tools based on Linux `perf_events` (aka `perf`) and `ftrace`.
 * [Sysdig](http://www.sysdig.org/) - Capture system state and activity from a running Linux instance, then save, filter and analyze.
-* [Wireshark](https://www.wireshark.org/) - The world's foremost network protocol analyzer.
+* [Wireshark](https://www.wireshark.org/) - World's foremost network protocol analyzer.
 
 ## Version Control Systems (VCS)
 
@@ -622,7 +622,7 @@ See [awesome-selfhosted/awesome-selfhosted § Project management](https://github
 * [strongSwan](https://www.strongswan.org/) - Complete IPsec implementation for Linux.
 * [tinc](http://www.tinc-vpn.org/) - Distributed p2p VPN.
 * [WireGuard](https://www.wireguard.com/) - Very fast VPN based on elliptic curve and public key crypto.
-* [Nebula](https://github.com/slackhq/nebula) - A scalable p2p VPN with a focus on performance, simplicity and security.
+* [Nebula](https://github.com/slackhq/nebula) - Scalable p2p VPN with a focus on performance, simplicity and security.
 
 ## Virtualization
 
@@ -671,13 +671,13 @@ See also [§ Cloud orchestration](#cloud-orchestration).
 (Also known as *HTTP servers*.)
 
 * [Algernon](http://algernon.roboticoverlords.org/) - Web/application server that supports Lua, live-reload, templates, Sass and HTTP/2.
-* [Apache](https://httpd.apache.org/) - A robust, commercial-grade, featureful implementation of an HTTP (Web) server.
+* [Apache](https://httpd.apache.org/) - Robust, commercial-grade, featureful implementation of an HTTP (Web) server.
 * [Caddy](https://caddyserver.com/) - Lightweight, general-purpose web server supporting HTTP/2, automatic TLS and easy configuration. Written in Go.
 * [Cherokee](http://cherokee-project.com/) - Lightweight, high-performance web server/reverse proxy.
 * [Hiawatha](https://www.hiawatha-webserver.org/) - Prioritises security, simplicity and performance.
 * [Lighttpd](http://www.lighttpd.net/) - Web server more optimized for speed-critical environments.
 * [Nginx](https://nginx.org/) - Reverse proxy, load balancer, HTTP cache, and web server.
-* [uWSGI](https://github.com/unbit/uwsgi/) - The uWSGI project aims at developing a full stack for building hosting services.
+* [uWSGI](https://github.com/unbit/uwsgi/) - Project aiming at developing a full stack for building hosting services.
 
 ### Web performance
 
@@ -698,7 +698,7 @@ See also [§ Cloud orchestration](#cloud-orchestration).
 * [Codex](http://www.starkandwayne.com/codex/) - How to deploy Cloud Foundry PaaS on infrastructures like AWS, OpenStack, Azure by Stark & Wayne, LLC.
 * [The Linux Command Line](http://linuxcommand.org/tlcl.php) - Book about the Linux command line by William Shotts.
 * [The Phoenix Project: A Novel about IT, DevOps, and Helping Your Business Win](http://itrevolution.com/books/phoenix-project-devops-book/) - How DevOps techniques can fix the problems that happen in IT organizations.
-* [The Practice of System and Network Administration](http://everythingsysadmin.com/books.html) - The first and second editions describes the best practices of system and network administration, independent of specific platforms or technologies.
+* [The Practice of System and Network Administration](http://everythingsysadmin.com/books.html) - First and second editions describes the best practices of system and network administration, independent of specific platforms or technologies.
 * [The Visible Ops Handbook: Implementing ITIL in 4 Practical and Auditable Steps](http://www.itpi.org/the-visible-ops-handbook-review.html) - Is a methodology designed to jumpstart implementation of controls and process improvement.
 * UNIX and Linux System Administration Handbook (ISBN-13: 978-0131480056) - Approaches system administration from a practical perspective.
 
@@ -706,14 +706,14 @@ See also [§ Cloud orchestration](#cloud-orchestration).
 
 *For the social people.*
 
-* [ArsTechnica OpenForum](http://arstechnica.com/civis/) – IT Forum which is attached to a large news site.
+* [ArsTechnica OpenForum](http://arstechnica.com/civis/) - IT Forum which is attached to a large news site.
 * [Reddit](https://www.reddit.com) - Really, really large bulletin board system.
   * [/r/Linux](https://www.reddit.com/r/linux) - News and information about Linux.
   * [/r/LinuxQuestions](https://www.reddit.com/r/linuxquestions)
   * [/r/SysAdmin](https://www.reddit.com/r/sysadmin/)
-* [Spiceworks Community](https://community.spiceworks.com/) – General enterprise IT news and small articles.
-* [StackExchange Network](https://stackexchange.com/sites#technology) – Q&A communities.
-  * [Server Fault](https://serverfault.com/) – StackExchange community for system and network administrators.
+* [Spiceworks Community](https://community.spiceworks.com/) - General enterprise IT news and small articles.
+* [StackExchange Network](https://stackexchange.com/sites#technology) - Q&A communities.
+  * [Server Fault](https://serverfault.com/) - StackExchange community for system and network administrators.
 
 ## Newsletters
 
@@ -748,9 +748,9 @@ See also [§ Cloud orchestration](#cloud-orchestration).
 
 ## Wikis
 
-*Useful Wikis for Sysadmins – not to be confused with Wiki software.*
+*Useful Wikis for Sysadmins - not to be confused with Wiki software.*
 
-* [ArchWiki](https://wiki.archlinux.org/) – Arch Linux Wiki which has really nice written articles valid for other distros.
+* [ArchWiki](https://wiki.archlinux.org/) - Arch Linux Wiki which has really nice written articles valid for other distros.
 * [Gentoo Wiki](https://wiki.gentoo.org/) - Gentoo Linux Wiki with a lot in-detail description of Linux components.
 
 ## License
